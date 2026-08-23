@@ -1,11 +1,11 @@
 # 🦞 AI Agent Skills Toolkit
 
-> **一套让 AI Agent 从"能用"到"好用"的核心能力引擎** — 149+ 个即插即用的技能模块，覆盖感知、思考、执行全链路
+> **一套让 AI Agent 从"能用"到"好用"的核心能力引擎** — 164+ 个即插即用的技能模块，覆盖感知、思考、执行全链路
 
 <div align="center">
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
-![Skills](https://img.shields.io/badge/skills-149+-orange.svg?style=for-the-badge)
+![Skills](https://img.shields.io/badge/skills-164+-orange.svg?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3.8+-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/node-16+-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-4.49+-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -25,7 +25,7 @@
 
 | 传统方式 | 本项目 |
 |:--------:|:------:|
-| 每个项目从零搭建 | **149+ 经过验证的能力模块** |
+| 每个项目从零搭建 | **164+ 经过验证的能力模块** |
 | 重复开发搜索/记忆/自动化 | **标准化接口一键集成** |
 | 散落各处难以复用 | **跨项目无缝复用** |
 
@@ -219,6 +219,7 @@ cat tavily-search-pro/SKILL.md
 | **frinkiac** | 经典美剧台词截图与表情包生成 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
 | **fact-checker** | 自动化事实核查与信源验证专家 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
 | **pengyouquan-pangyu** | 懂你风格的朋友圈文案助手 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
+| **clawddocs** | 智能文档查询与知识检索 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
 
 ### 🛠️ 开发工具
 
@@ -252,6 +253,7 @@ cat tavily-search-pro/SKILL.md
 | **voice-agent** | 本地智能语音交互桥接 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
 | **opcode** | AI 智能体零 Token 工作流执行层 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
 | **playwright-mcp** | 微软官方浏览器自动化 MCP 服务 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
+| **playwright-mcp-v2** | Playwright MCP 增强版浏览器自动化 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
 | **test-specialist** | 系统化 JS/TS 测试质量管家 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
 | **senior-frontend** | React 全栈项目脚手架与性能优化专家 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
 | **nl2ms-ui** | AI 驱动的跨平台 UI 自动化测试 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
@@ -331,6 +333,12 @@ cat tavily-search-pro/SKILL.md
 | **tencentcloud-cos-skill** | 企业级云存储与 AI 图像处理中心 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
 | **x-bookmarks** | 智能书签整理与行动转化助手 | <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
 | **codeberg** | 欧洲开源代码托管助手 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
+| **ui-ux-design** | 现代 UI/UX 设计权威指南 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **veo3-video-gen** | 谷歌 Veo3 智能短视频生成工坊 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
+| **voice-note-to-midi** | 语音哼唱转 MIDI 的 AI 音乐助手 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **sprite-animator** | AI 一键生成像素动画精灵 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
+| **alicloud-ai-video-wan-r2v** | 阿里云 Wan R2V 参考视频生成 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **tencent-cloud-cos** | 腾讯云对象存储与 AI 图像处理 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
 
 ### 🧬 专业领域
 
@@ -417,7 +425,7 @@ graph LR
 
 | 指标 | 数值 | 图标 |
 |:----:|:----:|:----:|
-| 技能总数 | **149+** | <img src="https://img.shields.io/badge/📦_技能-149+-orange?style=for-the-badge" /> |
+| 技能总数 | **164+** | <img src="https://img.shields.io/badge/📦_技能-164+-orange?style=for-the-badge" /> |
 | 覆盖领域 | **8 大能力域** | <img src="https://img.shields.io/badge/🎯_领域-8个-blue?style=for-the-badge" /> |
 | 平均启动 | **< 100ms** | <img src="https://img.shields.io/badge/⚡_启动-<100ms-green?style=for-the-badge" /> |
 | 内存占用 | **< 50MB** | <img src="https://img.shields.io/badge/💾_内存-<50MB-purple?style=for-the-badge" /> |
@@ -429,7 +437,7 @@ graph LR
 
 ## 🛣️ 路线图
 
-- [x] 149+ 技能模块标准化封装
+- [x] 164+ 技能模块标准化封装
 - [x] 安全分级体系（S+/S/A/B）
 - [x] 统一的 SKILL.md + _meta.json 规范
 - [ ] 技能市场与在线安装
