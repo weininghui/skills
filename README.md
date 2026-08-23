@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 66 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 70 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -105,6 +105,7 @@ cd skills
 | yt-transcript | 一键提取视频字幕精华 | Shell |
 | content-ideas-generator | 病毒式社媒内容创意引擎 | 文档 |
 | meeting-notes | 智能会议纪要结构化整理专家 | 文档 |
+| paddleocr-doc-parsing | 百度官方 OCR 文档解析引擎 | Python |
 
 ### 🛠️ 开发工具
 
@@ -123,6 +124,7 @@ cd skills
 | dashboard-manager2 | Jarvis 仪表盘实时数据同步中枢 | Node.js |
 | sendook-openclaw | 企业级邮件收发自动化 | 文档 |
 | commit-analyzer | Git 提交健康度智能监测仪 | Shell |
+| feishu-robot-registry | 飞书机器人集中注册管理工具 | Node.js |
 
 ### 💰 金融与电商
 
@@ -143,6 +145,7 @@ cd skills
 | paypal | 零代码 PayPal 支付集成助手 | 文档 |
 | solana-payments | Solana USDC 订阅支付链接生成 | 文档 |
 | moneydevkit | 5分钟极速集成的全球化支付方案 | Node.js |
+| btc15-autonomous-market | 全自主 BTC 预测市场自动化交易 | Shell |
 
 ### 🎨 设计与营销
 
@@ -155,6 +158,7 @@ cd skills
 | adcp-advertising | AI 驱动的全渠道广告自动化 | 文档 |
 | chargebee | 企业级订阅计费自动化管理 | 文档 |
 | afrexai-compliance-audit | 零成本启动企业合规认证 | 文档 |
+| geb-aesthetics | 基于 GEB 哲学的多模态创作框架 | 文档 |
 
 ### 🧬 专业领域
 
@@ -225,6 +229,10 @@ ai-agent-skills/
 ├── dashboard-manager2/       # Jarvis 仪表盘管理
 ├── sendook-openclaw/         # 企业级邮件自动化
 ├── commit-analyzer/          # Git 提交健康监测
+├── paddleocr-doc-parsing/    # OCR 文档解析
+├── geb-aesthetics/           # GEB 哲学多模态创作
+├── feishu-robot-registry/    # 飞书机器人管理
+├── btc15-autonomous-market/  # BTC 预测市场自动化
 ├── docs/                     # 详细文档
 └── README.md
 ```
