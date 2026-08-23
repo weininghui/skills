@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 57 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 62 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -118,6 +118,7 @@ cd skills
 | full-stack-feature | 端到端特性开发 orchestration | 文档 |
 | code-mentor | 苏格拉底式 AI 编程导师 | Python |
 | browserless-agent | 专业无头浏览器自动化操控 | Python |
+| tech-security-audit | 本地化网络安全漏洞评估专家 | Python |
 
 ### 💰 金融与电商
 
@@ -134,6 +135,10 @@ cd skills
 | usd1transaction | Wormhole 跨链稳定币安全转账 | Node.js |
 | x402-direct | 加密支付 API 服务发现平台 | 文档 |
 | buy-anything | 对话式 Amazon 智能代购助手 | 文档 |
+| polymarket-arbitrage | 预测市场套利机会智能监控 | Python |
+| paypal | 零代码 PayPal 支付集成助手 | 文档 |
+| solana-payments | Solana USDC 订阅支付链接生成 | 文档 |
+| moneydevkit | 5分钟极速集成的全球化支付方案 | Node.js |
 
 ### 🎨 设计与营销
 
@@ -207,6 +212,11 @@ ai-agent-skills/
 ├── qwen3-tts-instruct/       # 语音合成
 ├── financial-calculator/     # 金融计算器
 ├── self-integration/         # SaaS 集成
+├── tech-security-audit/      # 网络安全漏洞评估
+├── polymarket-arbitrage/     # 预测市场套利监控
+├── paypal/                   # PayPal 支付集成
+├── solana-payments/          # Solana USDC 订阅支付
+├── moneydevkit/              # 全球化支付方案
 ├── docs/                     # 详细文档
 └── README.md
 ```
