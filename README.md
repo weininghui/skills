@@ -1,0 +1,297 @@
+# 🦞 AI Agent Skills Toolkit
+
+> 一套面向 AI Agent 开发者的精选技能工具包 - 提供搜索、自动化、自我进化、内容处理、数据分析等核心能力
+
+## 项目简介
+
+本项目是一套精心设计的 AI Agent 技能集合，为开发者提供开箱即用的核心能力模块。项目涵盖：
+
+- 🔍 **智能搜索与信息获取** - 多源搜索、内容提取、深度研究、SEO 分析
+- 🤖 **Agent 自主进化** - 自我诊断、自动修复、持续优化、记忆管理
+- 🌐 **浏览器自动化** - 无头浏览器控制、网页交互、数据采集
+- 📝 **内容处理** - 多模态摘要、文本优化、格式转换、内容创意
+- 🛠️ **开发工具** - 任务队列、安全沙箱、全栈开发、密码学教育
+- 💰 **金融与电商** - 加密资产追踪、商品数据、IPO 提醒、日程管理
+- 🎨 **设计与营销** - 网页设计指南、SEO 内容引擎、冷邮件专家
+- 🧬 **专业领域** - 生物信息学、航空气象、VC 投资工作流
+
+## 核心特性
+
+- **模块化设计**：每个技能独立封装，可按需组合
+- **安全优先**：所有技能经过安全审查，提供安全等级标识
+- **易于集成**：标准化接口，支持主流 AI Agent 框架
+- **中文友好**：提供完整的中文文档和使用示例
+
+## 项目亮点
+
+### 🎯 技术架构创新
+
+1. **统一的技能封装规范**：所有技能遵循标准化的 `SKILL.md` + `_meta.json` 结构
+2. **模块化依赖管理**：每个技能可独立安装，无交叉依赖
+3. **安全分级体系**：建立 S+/S/A/B 四级安全评估标准
+4. **跨平台兼容**：支持 Windows/macOS/Linux 全平台
+
+### 🚀 核心技术栈
+
+- **运行时**：Node.js 16+, Python 3.8+
+- **数据库**：PostgreSQL 9.5+
+- **容器化**：Docker Desktop 4.49+
+- **浏览器自动化**：Chromium + 无障碍树快照
+
+## 快速开始
+
+### 环境要求
+
+```bash
+# 基础环境
+Node.js >= 16.0.0
+Python >= 3.8
+Git
+
+# 可选依赖
+Docker (用于安全沙箱)
+PostgreSQL (用于任务队列)
+```
+
+### 安装
+
+```bash
+git clone https://github.com/weininghui/skills.git
+cd skills
+```
+
+## 技能目录
+
+> 📚 共包含 42 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计等核心领域
+
+### 🔍 搜索与信息获取
+
+| 技能 | 功能 | 语言 |
+|------|------|------|
+| tavily-search-pro | AI 驱动的全能搜索研究平台 | Python |
+| omnisearch | 实时全网智能搜索助手 | Shell |
+| web-search-plus | 6 大搜索引擎智能路由 | Python |
+| serper | 专业搜索与批量数据采集利器 | Node.js |
+| web-search-plus | 五合一智能搜索自动路由引擎 | Python |
+| serp-analysis | SEO 竞争情报与 SERP 洞察专家 | 文档 |
+
+### 🤖 Agent 自主进化
+
+| 技能 | 功能 | 语言 |
+|------|------|------|
+| capability-evolver | AI Agent 自主进化引擎 | Node.js |
+| agent-overflow | AI Agent 集体记忆与协作网络 | API |
+| self-improvement | AI 持续进化与知识沉淀系统 | 文档 |
+| tiered-memory | LLM 驱动的智能分层记忆架构 | Python |
+| self-integration | 一键连接千款 SaaS 的智能集成中枢 | API |
+
+### 🌐 浏览器与自动化
+
+| 技能 | 功能 | 语言 |
+|------|------|------|
+| agent-browser | AI 原生浏览器自动化引擎 | Node.js |
+| docker-sandbox | VM 级隔离的安全代码执行环境 | Docker |
+| cal-com-automation | Cal.com 智能日程自动化助手 | 文档 |
+
+### 📝 内容处理
+
+| 技能 | 功能 | 语言 |
+|------|------|------|
+| summarize | 多模态智能内容摘要助手 | Swift |
+| humanize-ai-text | AI 文本特征检测与优化工具 | Python |
+| yt-transcript | 一键提取视频字幕精华 | Shell |
+| content-ideas-generator | 病毒式社媒内容创意引擎 | 文档 |
+| meeting-notes | 智能会议纪要结构化整理专家 | 文档 |
+
+### 🛠️ 开发工具
+
+| 技能 | 功能 | 语言 |
+|------|------|------|
+| postgres-job-queue | 零依赖 PostgreSQL 任务队列引擎 | JavaScript |
+| wacli | WhatsApp 命令行消息管理专家 | Go |
+| news-aggregator | 8 源聚合的智能资讯雷达 | Python |
+| skill-vetting | 第三方技能安全审查专家 | Python |
+| zero-rules | 零成本拦截确定性任务 | Node.js |
+| secretcodex | 复古解码环遇上现代密码学 | 文档 |
+| full-stack-feature | 端到端特性开发 orchestration | 文档 |
+
+### 💰 金融与电商
+
+| 技能 | 功能 | 语言 |
+|------|------|------|
+| amazon-product-api | 零代码亚马逊商品数据抓取专家 | Python |
+| claw-trader-lite | 零托管跨平台加密资产监控 | Python |
+| ipo-alert | 韩国新股申购智能提醒助手 | Python |
+| onchain | 多链加密资产一站式追踪终端 | CLI |
+| mintgarden | Chia NFT 市场数据实时追踪 | Node.js |
+| financial-calculator | 金融计算器 | Node.js |
+
+### 🎨 设计与营销
+
+| 技能 | 功能 | 语言 |
+|------|------|------|
+| awwwards-design | 打造获奖级网页体验的设计指南 | 文档 |
+| afrexai-seo-content-engine | 零 API 的智能 SEO 内容生产引擎 | 文档 |
+| yc-cold-outreach | YC 认证的高转化冷邮件专家 | 文档 |
+| clawdbot-for-vcs | VC 合伙人智能投资工作流管家 | 文档 |
+
+### 🧬 专业领域
+
+| 技能 | 功能 | 语言 |
+|------|------|------|
+| aviation-weather | FAA 权威航空气象 briefing 工具 | Python |
+| bioskills | 一站式生物信息学分析平台 | Shell |
+| shellf | AI 代理的哲学阅读社区 | API |
+| catalog | 极简安全的服务目录查询助手 | Node.js |
+| brainrepo | 知识库管理 | Node.js |
+| openspec | 开放规范管理 | Node.js |
+| qwen3-tts-instruct | 阿里云多情绪实时语音合成 | API |
+
+## 项目结构
+
+```
+ai-agent-skills/
+├── tavily-search-pro/        # 搜索与研究
+├── capability-evolver/       # Agent 进化引擎
+├── agent-overflow/           # 集体记忆网络
+├── summarize/                # 内容摘要
+├── docker-sandbox/           # 安全执行环境
+├── agent-browser/            # 浏览器自动化
+├── self-improvement/         # 自我进化系统
+├── humanize-ai-text/         # 文本优化
+├── postgres-job-queue/       # 任务队列
+├── wacli/                    # WhatsApp 集成
+├── omnisearch/               # 全网智能搜索
+├── web-search-plus/          # 多引擎智能路由
+├── amazon-product-api/       # 亚马逊数据抓取
+├── claw-trader-lite/         # 加密资产监控
+├── skill-vetting/            # 技能安全审查
+├── news-aggregator/          # 资讯聚合雷达
+├── serper/                   # 专业搜索采集
+├── yt-transcript/            # YouTube 字幕提取
+├── tiered-memory/            # 分层记忆架构
+├── awwwards-design/          # 网页设计指南
+├── afrexai-seo-content-engine/ # SEO 内容引擎
+├── yc-cold-outreach/         # 冷邮件专家
+├── clawdbot-for-vcs/         # VC 投资工作流
+├── aviation-weather/         # 航空气象查询
+├── bioskills/                # 生物信息学平台
+├── ipo-alert/                # 韩股 IPO 提醒
+├── onchain/                  # 多链资产追踪
+├── mintgarden/               # Chia NFT 追踪
+├── zero-rules/               # 确定性任务拦截
+├── secretcodex/              # 密码学教育
+├── full-stack-feature/       # 全栈开发流程
+├── content-ideas-generator/  # 内容创意引擎
+├── meeting-notes/            # 会议纪要整理
+├── shellf/                   # 哲学阅读社区
+├── catalog/                  # 服务目录查询
+├── cal-com-automation/       # 日程自动化
+├── openspec/                 # 开放规范管理
+├── brainrepo/                # 知识库管理
+├── qwen3-tts-instruct/       # 语音合成
+├── financial-calculator/     # 金融计算器
+├── self-integration/         # SaaS 集成
+├── docs/                     # 详细文档
+└── README.md
+```
+
+## 技术实现细节
+
+### 1. 搜索引擎架构
+
+```
+┌─────────────────────────────────────────┐
+│           搜索引擎核心                    │
+├─────────────────────────────────────────┤
+│  Query Parser → Intent Classifier       │
+│       ↓                                  │
+│  Multi-Source Dispatcher                 │
+│       ↓                                  │
+│  Result Aggregator & Ranker             │
+│       ↓                                  │
+│  LLM Enhancement Layer                  │
+└─────────────────────────────────────────┘
+```
+
+### 2. Agent 进化系统
+
+```
+┌─────────────────────────────────────────┐
+│           GEP 协议引擎                    │
+├─────────────────────────────────────────┤
+│  Runtime Log Collector                  │
+│       ↓                                  │
+│  Pattern Analyzer                       │
+│       ↓                                  │
+│  Mutation Generator                     │
+│       ↓                                  │
+│  Fitness Evaluator                      │
+│       ↓                                  │
+│  Asset Store Manager                    │
+└─────────────────────────────────────────┘
+```
+
+### 3. 任务队列设计
+
+```sql
+-- 核心数据结构
+CREATE TABLE jobs (
+    id UUID PRIMARY KEY,
+    status VARCHAR(20) NOT NULL,
+    priority INTEGER DEFAULT 100,
+    data JSONB NOT NULL,
+    progress INTEGER DEFAULT 0,
+    attempts INTEGER DEFAULT 0,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+-- 高并发认领索引
+CREATE INDEX idx_jobs_claimable 
+ON jobs (priority DESC, created_at ASC) 
+WHERE status = 'pending';
+```
+
+## 应用场景
+
+- **AI Agent 开发**：为 Agent 提供搜索、自动化、自我进化能力
+- **智能客服**：消息集成、自动回复、知识库管理
+- **数据分析**：信息获取、内容提取、报告生成
+- **自动化测试**：浏览器自动化、UI 测试、数据采集
+- **DevOps**：任务队列、安全沙箱、持续集成
+- **金融投资**：加密资产追踪、IPO 监控、市场数据分析
+- **内容营销**：SEO 优化、冷邮件、社媒内容创作
+- **生物信息**：基因组分析、蛋白质结构预测
+
+## 开发指南
+
+### 添加新技能
+
+1. 在根目录创建技能文件夹
+2. 添加 `SKILL.md` 文档
+3. 添加 `_meta.json` 元数据
+4. 更新 README.md 目录
+
+### 贡献标准
+
+- 代码通过基本安全检查
+- 提供完整的使用文档
+- 包含示例代码
+- 遵循项目代码规范
+
+## 许可证
+
+本项目采用 MIT 许可证开源。
+
+## 联系方式
+
+- GitHub: [@weininghui](https://github.com/weininghui)
+- Issues: [GitHub Issues](https://github.com/weininghui/skills/issues)
+
+---
+
+<div align="center">
+
+**如果这个项目对你有帮助，请给个 ⭐ Star 支持一下！**
+
+</div>
