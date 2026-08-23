@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 103 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 107 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -145,6 +145,7 @@ cd skills
 | stdio-skill | 本地文件安全收发工作站 | Node.js |
 | custom-smtp-sender | 安全可靠的自动化邮件发送助手 | Python |
 | email-sequence-builder | 高转化邮件营销序列生成器 | 文档 |
+| switch-modes | AI 模型动态调度与成本优化 | 文档 |
 
 ### 💰 金融与电商
 
@@ -188,6 +189,9 @@ cd skills
 | instagram-poster | 本地 Instagram 自动化运营专家 | 文档 |
 | auto-reply | 7×24 小时社交智能互动管家 | 文档 |
 | competitor-analysis-report | 专业级竞品分析与战略洞察 | 文档 |
+| contract-generator | 自由职业合同智能生成专家 | 文档 |
+| freelance-proposal-engine | 高转化自由职业投标助手 | 文档 |
+| vestaboard | 机械翻转屏智能消息助手 | Node.js |
 
 ### 🧬 专业领域
 
