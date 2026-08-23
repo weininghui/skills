@@ -1,11 +1,11 @@
 # 🦞 AI Agent 全能技能库
 
-> ### 给 AI 装上 175 个"轮子"，让它从"能聊天"到"能干活"
+> ### 给 AI 装上 200 个"轮子"，让它从"能聊天"到"能干活"
 > 一套开箱即用的 AI Agent 能力引擎 —— 搜索、记忆、浏览器、支付、创作、安全，装上就能跑。
 
 <div align="center">
 
-![Skills](https://img.shields.io/badge/技能模块-175+-orange.svg?style=for-the-badge)
+![Skills](https://img.shields.io/badge/技能模块-200+-orange.svg?style=for-the-badge)
 ![Domains](https://img.shields.io/badge/能力领域-9个-blue.svg?style=for-the-badge)
 ![Security](https://img.shields.io/badge/安全分级-S+/S/A/B-brightgreen.svg?style=for-the-badge)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
@@ -37,7 +37,7 @@ graph TB
     style W4 fill:#FFF3E0,stroke:#F57C00,stroke-width:4px
 ```
 
-> **每个技能就是一个轮子**：装上感知轮，AI 会搜索浏览；装上思考轮，AI 会记忆推理；装上行动轮，AI 会执行支付；四个轮子装齐，AI 就能真正"跑"起来。175 个技能，任你拼装。
+> **每个技能就是一个轮子**：装上感知轮，AI 会搜索浏览；装上思考轮，AI 会记忆推理；装上行动轮，AI 会执行支付；四个轮子装齐，AI 就能真正"跑"起来。200 个技能，任你拼装。
 
 ### 🚧 别人还在造轮子，你已经装上轮子出发了
 
@@ -69,7 +69,7 @@ graph LR
 
 <div align="center">
 
-| 175+ | 9 | 4 |
+| 200+ | 9 | 4 |
 |:----:|:--:|:--:|
 | **即插即用技能** | **能力领域** | **安全分级** |
 | 搜索 / 办公 / 支付 / 创作 | 开发·金融·设计·职场… | S+ 到 B，全部标注 |
@@ -104,7 +104,7 @@ graph LR
     style B4 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
 ```
 
-**一句话介绍**：AI 就像一台刚出厂的电脑——模型很聪明，但"什么都不会做"。这个项目给 AI 装上 175 个"手和脚"，让它会搜索、会记忆、会操作浏览器、会付款、会创作内容。
+**一句话介绍**：AI 就像一台刚出厂的电脑——模型很聪明，但"什么都不会做"。这个项目给 AI 装上 200 个"手和脚"，让它会搜索、会记忆、会操作浏览器、会付款、会创作内容。
 
 ---
 
@@ -162,7 +162,7 @@ graph TB
     style D fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
 ```
 
-> 就像做一顿饭：先买菜（收集）→ 再配菜（分析）→ 下锅炒（执行）→ 试吃把关（安全）。175 个技能覆盖这条流水线的每一步。
+> 就像做一顿饭：先买菜（收集）→ 再配菜（分析）→ 下锅炒（执行）→ 试吃把关（安全）。200 个技能覆盖这条流水线的每一步。
 
 ### 🔒 安全分级 — 每个技能都带"健康证"
 
@@ -193,13 +193,13 @@ cat tavily-search-pro/SKILL.md
 
 > 传统做法是从零写代码，每个功能花几周；
 > **本项目把 AI 常用的能力全部打包好** —— 搜索、记忆、浏览器、支付、创作、安全、办公，
-> 175+ 个技能模块随取随用，让 AI Agent 开发从"造轮子"变成"装轮子"。
+> 200+ 个技能模块随取随用，让 AI Agent 开发从"造轮子"变成"装轮子"。
 
 ---
 
 ## 📚 技能目录
 
-> **175+ 个精选技能**，按能力域分类，每个都经过实战验证
+> **200+ 个精选技能**，按能力域分类，每个都经过实战验证
 
 <div align="center">
 
@@ -483,7 +483,7 @@ graph LR
 
 | 指标 | 数值 | 图标 |
 |:----:|:----:|:----:|
-| 技能总数 | **175+** | <img src="https://img.shields.io/badge/📦_技能-175+-orange?style=for-the-badge" /> |
+| 技能总数 | **200+** | <img src="https://img.shields.io/badge/📦_技能-200+-orange?style=for-the-badge" /> |
 | 覆盖领域 | **9 大能力域** | <img src="https://img.shields.io/badge/🎯_领域-9个-blue?style=for-the-badge" /> |
 | 平均启动 | **< 100ms** | <img src="https://img.shields.io/badge/⚡_启动-<100ms-green?style=for-the-badge" /> |
 | 内存占用 | **< 50MB** | <img src="https://img.shields.io/badge/💾_内存-<50MB-purple?style=for-the-badge" /> |
@@ -495,7 +495,7 @@ graph LR
 
 ## 🛣️ 路线图
 
-- [x] 175+ 技能模块标准化封装
+- [x] 200+ 技能模块标准化封装
 - [x] 安全分级体系（S+/S/A/B）
 - [x] 统一的 SKILL.md + _meta.json 规范
 - [ ] 技能市场与在线安装
