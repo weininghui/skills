@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 126 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 131 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -204,6 +204,11 @@ cd skills
 | mailmolt | 为 AI 代理打造独立邮件身份 | TypeScript |
 | papi | 企业级 WhatsApp 自动化中枢 | 文档 |
 | life-control | 多维度个人生活自动化管理 | 文档 |
+| vnsh | 零知识端到端加密文件秒传 | Shell |
+| lygo-champion-arkos-celestial-architect | 伦理架构师的系统重建顾问 | 文档 |
+| lygo-mint-operator-suite | 可验证内容锚定与账本管理工具 | 文档 |
+| lygo-champion-cryptosophia-soulforger | 符号炼金与伦理模因铸造坊 | 文档 |
+| hyperstack | 省 94% Token 的持久记忆方案 | API |
 
 ### 🧬 专业领域
 

@@ -1,0 +1,22 @@
+{
+  "owner": "deeqyaqub1-cmd",
+  "slug": "hyperstack",
+  "displayName": "HyperStack (requires HYPERSTACK_API_KEY)",
+  "latest": {
+    "version": "1.0.8",
+    "publishedAt": 1771017769696,
+    "commit": "https://github.com/openclaw/skills/commit/93afdb87d0a1768af77187c98b560ffd688dd120"
+  },
+  "history": [
+    {
+      "version": "1.0.7",
+      "publishedAt": 1770873447199,
+      "commit": "https://github.com/openclaw/skills/commit/d56e51bee11935dab01e8e60e7408cb7595b2149"
+    },
+    {
+      "version": "1.0.4",
+      "publishedAt": 1770774951138,
+      "commit": "https://github.com/openclaw/skills/commit/a2f569d11d81d7c1106e6c00097b5a29c7f9da6d"
+    }
+  ]
+}
