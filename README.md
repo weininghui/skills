@@ -211,6 +211,35 @@ cat tavily-search-pro/SKILL.md
 
 **没有复杂的安装流程，没有依赖地狱。装上技能，AI 立刻多一项本领。**
 
+### ⚙️ 把技能装进 OpenClaw（完整示例）
+
+以安装「搜索」技能（tavily-search-pro）为例：
+
+```bash
+# ① 进入 OpenClaw 的技能目录
+cd ~/.openclaw/workspace/skills/
+
+# ② 从本项目复制技能（以搜索为例）
+cp -r skills/tavily-search-pro .
+
+# ③ 重启 OpenClaw，技能自动生效
+# 然后直接对 AI 说：帮我搜索一下「AI Agent 最新趋势」
+```
+
+也可以一条命令装好（需 ClawHub 支持）：
+
+```bash
+openclaw skills install https://github.com/weininghui/skills.git
+```
+
+| 步骤 | 做什么 | 结果 |
+|------|--------|------|
+| ① `cd ~/.openclaw/workspace/skills/` | 找到 OpenClaw 存放技能的地方 | ✅ |
+| ② `cp -r skills/xxx .` | 把技能文件夹放进去 | AI 多一项本领 |
+| ③ 重启 | 让 OpenClaw 加载新技能 | 立即可用 |
+
+> 💡 **装好后怎么用？** 用自然语言就行：说「帮我搜新闻」「帮我做个 PPT」「帮我查下股价」，AI 会自动"唤醒"对应技能——这就是上面说的动态注册，200 个技能也不会乱。
+
 ### ✅ 一句话总结这个项目
 
 > 传统做法是从零写代码，每个功能花几周；
