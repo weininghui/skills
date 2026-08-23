@@ -136,6 +136,28 @@ graph LR
 
 ## 💡 核心亮点
 
+### 🎯 动态注册 — 200 个技能，按需"唤醒"
+
+200 个技能不会一次性全部塞给 AI（那会导致选择困难、工具幻觉）。而是采用**按需动态注册**：
+
+```mermaid
+graph TB
+    A["🤖 AI 收到任务"] --> B["🧠 理解任务意图"]
+    B --> C["🔍 匹配相关技能<br/>（只唤醒 2~5 个）"]
+    C --> D["⚡ 临时注入上下文"]
+    D --> E["✅ 精确执行任务"]
+    E --> F["🗑️ 用完即卸<br/>（不占上下文）"]
+
+    style A fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
+    style B fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
+    style C fill:#FFFDE7,stroke:#F9A825,stroke-width:2px
+    style D fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+    style E fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+    style F fill:#FFEBEE,stroke:#D32F2F,stroke-width:2px
+```
+
+> 💡 **为什么这样做？** 就像医生只开对症的药，而不是把整家药店的药全搬来。200 个技能是"药房库存"，每次任务只"抓"需要的几味——又快、又准、不幻觉。
+
 ### 🧩 即插即用 — 像装 App 一样装技能
 
 每个技能独立封装，复制即用，无需改任何代码：
