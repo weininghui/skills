@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 62 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 66 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -94,6 +94,7 @@ cd skills
 | agent-browser | AI 原生浏览器自动化引擎 | Node.js |
 | docker-sandbox | VM 级隔离的安全代码执行环境 | Docker |
 | cal-com-automation | Cal.com 智能日程自动化助手 | 文档 |
+| clawdbot-documentation-expert | Clawdbot 文档实时查询专家 | Shell |
 
 ### 📝 内容处理
 
@@ -119,6 +120,9 @@ cd skills
 | code-mentor | 苏格拉底式 AI 编程导师 | Python |
 | browserless-agent | 专业无头浏览器自动化操控 | Python |
 | tech-security-audit | 本地化网络安全漏洞评估专家 | Python |
+| dashboard-manager2 | Jarvis 仪表盘实时数据同步中枢 | Node.js |
+| sendook-openclaw | 企业级邮件收发自动化 | 文档 |
+| commit-analyzer | Git 提交健康度智能监测仪 | Shell |
 
 ### 💰 金融与电商
 
@@ -217,6 +221,10 @@ ai-agent-skills/
 ├── paypal/                   # PayPal 支付集成
 ├── solana-payments/          # Solana USDC 订阅支付
 ├── moneydevkit/              # 全球化支付方案
+├── clawdbot-documentation-expert/ # Clawdbot 文档查询
+├── dashboard-manager2/       # Jarvis 仪表盘管理
+├── sendook-openclaw/         # 企业级邮件自动化
+├── commit-analyzer/          # Git 提交健康监测
 ├── docs/                     # 详细文档
 └── README.md
 ```
