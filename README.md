@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 112 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 117 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -195,6 +195,9 @@ cd skills
 | vestaboard | 机械翻转屏智能消息助手 | Node.js |
 | salesforce-sdr-admin | 企业级 Salesforce 安全自动化助手 | 文档 |
 | x-bookmarks | 智能书签整理与行动转化助手 | Shell |
+| codeberg | 欧洲开源代码托管助手 | 文档 |
+| tencentcloud-cos-skill | 企业级云存储与 AI 图像处理中心 | Python |
+| marketing-drafter | 全渠道 AI 营销文案生成器 | 文档 |
 
 ### 🧬 专业领域
 
@@ -215,6 +218,8 @@ cd skills
 | globepilot-ai-agent-2 | 去中心化 AI 智能旅行管家 | 文档 |
 | hebrew-nikud | 精准希伯来语 TTS 发音指南 | 文档 |
 | near-faucet | NEAR 测试网代币一键领取助手 | Node.js |
+| near-subaccount | NEAR 区块链子账户管理专家 | Node.js |
+| base-8004 | AI 代理永久链上身份注册 | 文档 |
 | mcd-cn | 麦当劳中国优惠券智能助手 | 文档 |
 
 ## 项目结构
