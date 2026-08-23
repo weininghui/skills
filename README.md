@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 85 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 89 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -86,6 +86,7 @@ cd skills
 | self-integration | 一键连接千款 SaaS 的智能集成中枢 | API |
 | everclaw | 去中心化 AI 推理基础设施 | Node.js |
 | claw-sync | OpenClaw 记忆安全同步专家 | Node.js |
+| learning-engine | 经验驱动的持续进化学习引擎 | 文档 |
 
 ### 🌐 浏览器与自动化
 
@@ -109,6 +110,7 @@ cd skills
 | paddleocr-doc-parsing | 百度官方 OCR 文档解析引擎 | Python |
 | vocabulary-builder | 基于间隔重复的智能词汇构建器 | 文档 |
 | frinkiac | 经典美剧台词截图与表情包生成 | 文档 |
+| fact-checker | 自动化事实核查与信源验证专家 | 文档 |
 
 ### 🛠️ 开发工具
 
@@ -131,6 +133,7 @@ cd skills
 | xlsx-pro | 专业级 Excel 表格处理与财务建模 | Python |
 | microsoft-code-reference | Azure 开发者的智能文档助手 | 文档 |
 | agent-skills-tools | Agent Skills 生态安全审计卫士 | Shell |
+| otp-challenger | 敏感操作前的双因素认证 | Shell |
 
 ### 💰 金融与电商
 
@@ -171,6 +174,7 @@ cd skills
 | geb-aesthetics | 基于 GEB 哲学的多模态创作框架 | 文档 |
 | content-ideas | 灵感源源不断的社媒管家 | 文档 |
 | instagram-poster | 本地 Instagram 自动化运营专家 | 文档 |
+| auto-reply | 7×24 小时社交智能互动管家 | 文档 |
 
 ### 🧬 专业领域
 
@@ -263,6 +267,10 @@ ai-agent-skills/
 ├── content-ideas/            # 社媒内容创意
 ├── instagram-poster/         # Instagram 自动化
 ├── mcd-cn/                   # 麦当劳优惠券
+├── auto-reply/               # 社交自动回复
+├── otp-challenger/           # 双因素认证
+├── fact-checker/             # 事实核查专家
+├── learning-engine/          # 持续学习引擎
 ├── docs/                     # 详细文档
 └── README.md
 ```
