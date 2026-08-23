@@ -68,39 +68,65 @@ skill-name/
 
 ```mermaid
 graph TB
-    subgraph "🔍 感知层 PERCEPTION"
-        A1[多源搜索]
-        A2[内容提取]
-        A3[SEO 分析]
-        A4[航空气象]
+    subgraph PERCEPTION["🔍 感知层 PERCEPTION"]
+        direction LR
+        A1["🔎 多源搜索<br/>tavily-search-pro<br/>multi-search-engine"]
+        A2["🌐 浏览器控制<br/>agent-browser<br/>playwright-mcp"]
+        A3["📄 内容提取<br/>summarize<br/>paddleocr-doc-parsing"]
+        A4["📊 数据分析<br/>seo-content-engine<br/>competitor-analysis"]
+        A5["📡 实时监控<br/>aviation-weather<br/>amap-traffic"]
     end
 
-    subgraph "🧠 思考层 COGNITION"
-        B1[记忆管理]
-        B2[知识图谱]
-        B3[自我进化]
-        B4[决策推理]
+    subgraph COGNITION["🧠 思考层 COGNITION"]
+        direction LR
+        B1["🧬 自我进化<br/>self-improvement<br/>capability-evolver"]
+        B2["🕸️ 知识图谱<br/>knowledge-graph<br/>ontology"]
+        B3["💭 决策推理<br/>fact-checker<br/>humanize-ai-text"]
+        B4["📝 记忆管理<br/>memory-tiering<br/>zettelkasten"]
+        B5["🎨 创意生成<br/>content-ideas<br/>creative-writing"]
     end
 
-    subgraph "⚡ 执行层 ACTION"
-        C1[浏览器自动化]
-        C2[支付集成]
-        C3[任务队列]
-        C4[邮件自动化]
+    subgraph ACTION["⚡ 执行层 ACTION"]
+        direction LR
+        C1["🤖 自动化运营<br/>auto-reply<br/>instagram-poster"]
+        C2["💰 支付集成<br/>paypal<br/>solana-payments"]
+        C3["📧 通信管理<br/>wacli<br/>custom-smtp-sender"]
+        C4["📁 文件处理<br/>xlsx-pro<br/>tencent-cloud-cos"]
+        C5["🎬 内容创作<br/>ppt-master<br/>video-generation"]
     end
 
-    subgraph "🛡️ 安全层 SECURITY"
-        D1[安全审计]
-        D2[威胁检测]
-        D3[代码沙箱]
-        D4[双因素认证]
+    subgraph SECURITY["🛡️ 安全层 SECURITY"]
+        direction LR
+        D1["🔒 安全审计<br/>aegis-audit<br/>tech-security-audit"]
+        D2["🛡️ 威胁检测<br/>skill-vetting<br/>otp-challenger"]
+        D3["🏗️ 代码沙箱<br/>docker-sandbox<br/>browser-secure"]
+        D4["🔑 身份认证<br/>base-8004<br/>remix-api-key-auth"]
     end
 
     A1 --> B1
-    A2 --> B2
-    B3 --> C1
-    B4 --> C2
-    C3 --> D1
+    A1 --> B2
+    A2 --> B3
+    A2 --> C1
+    A3 --> B4
+    A3 --> B5
+    A4 --> B3
+    A5 --> C1
+    B1 --> C1
+    B2 --> C4
+    B3 --> C2
+    B4 --> C5
+    B5 --> C5
+    C1 --> D1
+    C2 --> D2
+    C3 --> D3
+    C4 --> D4
+    C5 --> D1
+
+    style PERCEPTION fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
+    style COGNITION fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
+    style ACTION fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+    style SECURITY fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
+```
     C4 --> D2
 
     style A1 fill:#E3F2FD,stroke:#1976D2
@@ -375,47 +401,75 @@ cat tavily-search-pro/SKILL.md
 
 ```mermaid
 graph LR
-    subgraph "🔬 智能研究员"
-        R1[tavily-search-pro] --> R2[summarize]
-        R2 --> R3[knowledge-graph]
-        R3 --> R4[输出: 结构化知识]
+    subgraph RESEARCHER["🔬 智能研究员工作流"]
+        direction TB
+        R1["🔎 tavily-search-pro<br/>多源深度搜索"] --> R2["📄 summarize<br/>多模态内容摘要"]
+        R2 --> R3["🕸️ knowledge-graph<br/>结构化知识图谱"]
+        R3 --> R4["✅ fact-checker<br/>事实核查验证"]
+        R4 --> R5["📝 zettelkasten<br/>卡片笔记归档"]
+        R5 --> R6["📊 输出: 可信赖知识库"]
+        R1 -.-> R7["🧠 self-improvement<br/>搜索策略自优化"]
+        R7 -.-> R1
     end
 
-    subgraph "📱 自动化运营"
-        O1[agent-browser] --> O2[auto-reply]
-        O2 --> O3[instagram-poster]
-        O3 --> O4[输出: 7×24 运营]
+    subgraph OPERATOR["📱 全自动运营工作流"]
+        direction TB
+        O1["🌐 agent-browser<br/>社交媒体监控"] --> O2["💡 content-ideas<br/>爆款内容策划"]
+        O2 --> O3["✍️ humanize-ai-text<br/>AI 文本人性化"]
+        O3 --> O4["📸 instagram-poster<br/>多平台一键发布"]
+        O4 --> O5["💬 auto-reply<br/>智能评论互动"]
+        O5 --> O6["📊 输出: 7×24 无人运营"]
+        O1 -.-> O7["📈 competitor-analysis<br/>竞品动态追踪"]
+        O7 -.-> O2
     end
 
-    subgraph "💹 金融监控"
-        F1[claw-trader-lite] --> F2[polymarket-arbitrage]
-        F2 --> F3[ipo-alert]
-        F3 --> F4[输出: 实时预警]
+    subgraph FINANCE["💹 金融监控工作流"]
+        direction TB
+        F1["📈 claw-trader-lite<br/>跨市场行情监控"] --> F2["⚡ polymarket-arbitrage<br/>套利机会捕捉"]
+        F2 --> F3["🔔 ipo-alert<br/>新股申购提醒"]
+        F3 --> F4["💰 financial-search<br/>财经情报聚合"]
+        F4 --> F5["📋 输出: 实时投资预警"]
+        F1 -.-> F6["🔍 alpha-finder<br/>Alpha 信号挖掘"]
+        F6 -.-> F2
     end
 
-    style R1 fill:#E3F2FD,stroke:#1976D2
-    style R2 fill:#E3F2FD,stroke:#1976D2
-    style R3 fill:#E3F2FD,stroke:#1976D2
-    style R4 fill:#E3F2FD,stroke:#1976D2
-    style O1 fill:#E8F5E9,stroke:#388E3C
-    style O2 fill:#E8F5E9,stroke:#388E3C
-    style O3 fill:#E8F5E9,stroke:#388E3C
-    style O4 fill:#E8F5E9,stroke:#388E3C
-    style F1 fill:#FFF3E0,stroke:#F57C00
-    style F2 fill:#FFF3E0,stroke:#F57C00
-    style F3 fill:#FFF3E0,stroke:#F57C00
-    style F4 fill:#FFF3E0,stroke:#F57C00
+    subgraph CREATOR["🎬 内容创作工作流"]
+        direction TB
+        K1["💡 content-ideas<br/>创意灵感库"] --> K2["✍️ creative-writing<br/>AI 创意写作"]
+        K2 --> K3["🎨 baoyu-cover-image<br/>专业封面生成"]
+        K3 --> K4["📊 ppt-master<br/>演示文稿制作"]
+        K4 --> K5["🎬 video-generation<br/>短视频批量产出"]
+        K5 --> K6["📱 小红书/Instagram<br/>多平台分发"]
+        K1 -.-> K7["🖼️ baoyu-article-illustrator<br/>文章智能配图"]
+        K7 -.-> K3
+    end
+
+    subgraph SECURITY_TEAM["🔒 安全开发工作流"]
+        direction TB
+        S1["🏗️ docker-sandbox<br/>隔离执行环境"] --> S2["🔐 aegis-audit<br/>代码安全审计"]
+        S2 --> S3["🛡️ tech-security-audit<br/>漏洞扫描评估"]
+        S3 --> S4["✅ skill-vetting<br/>第三方技能审查"]
+        S4 --> S5["📋 输出: 安全合规报告"]
+        S1 -.-> S6["🔑 otp-challenger<br/>操作双因素认证"]
+        S6 -.-> S2
+    end
+
+    style RESEARCHER fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
+    style OPERATOR fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+    style FINANCE fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
+    style CREATOR fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
+    style SECURITY_TEAM fill:#FFEBEE,stroke:#D32F2F,stroke-width:2px
 ```
 
 </div>
 
 | 场景 | 技能组合 | 效果 |
 |------|----------|------|
-| 🔬 **智能研究员** | tavily-search-pro + summarize + knowledge-graph | 自动搜索、摘要、归档，效率提升 10x |
-| 📱 **自动化运营** | agent-browser + auto-reply + instagram-poster | 全自动社交媒体运营，7×24 无休 |
-| 💹 **金融监控** | claw-trader-lite + polymarket-arbitrage + ipo-alert | 多市场实时监控，不错过任何机会 |
-| 🔒 **安全开发** | docker-sandbox + aegis-audit + tech-security-audit | 代码执行隔离 + 安全审计，开发无忧 |
-| ✍️ **内容创作** | content-ideas-generator + humanize-ai-text + yt-transcript | 灵感 → 创作 → 优化，全流程 AI 辅助 |
+| 🔬 **智能研究员** | tavily-search-pro → summarize → knowledge-graph → fact-checker → zettelkasten | 多源搜索 → 摘要 → 知识图谱 → 核查 → 归档，端到端知识管理 |
+| 📱 **全自动运营** | agent-browser → content-ideas → humanize-ai-text → instagram-poster → auto-reply | 监控 → 策划 → 润色 → 发布 → 互动，7×24 无人运营 |
+| 💹 **金融监控** | claw-trader-lite → polymarket-arbitrage → ipo-alert → financial-search | 行情 → 套利 → 提醒 → 情报，多市场实时预警 |
+| 🎬 **内容创作** | content-ideas → creative-writing → baoyu-cover-image → ppt-master → video-generation | 灵感 → 写作 → 封面 → PPT → 视频，全形态内容产出 |
+| 🔒 **安全开发** | docker-sandbox → aegis-audit → tech-security-audit → skill-vetting → otp-challenger | 隔离 → 审计 → 扫描 → 审查 → 认证，全链路安全防护 |
 
 ---
 
