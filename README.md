@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 80 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 85 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -108,6 +108,7 @@ cd skills
 | meeting-notes | 智能会议纪要结构化整理专家 | 文档 |
 | paddleocr-doc-parsing | 百度官方 OCR 文档解析引擎 | Python |
 | vocabulary-builder | 基于间隔重复的智能词汇构建器 | 文档 |
+| frinkiac | 经典美剧台词截图与表情包生成 | 文档 |
 
 ### 🛠️ 开发工具
 
@@ -154,6 +155,7 @@ cd skills
 | alpha-finder | 预测市场智能投研助手 | Shell |
 | moltpho | AI 自主购物与加密支付管家 | Python |
 | aperture | L402 闪电付费 API 网关 | Shell |
+| airdrop-hunter | 加密空投智能追踪与管理助手 | 文档 |
 
 ### 🎨 设计与营销
 
@@ -167,6 +169,8 @@ cd skills
 | chargebee | 企业级订阅计费自动化管理 | 文档 |
 | afrexai-compliance-audit | 零成本启动企业合规认证 | 文档 |
 | geb-aesthetics | 基于 GEB 哲学的多模态创作框架 | 文档 |
+| content-ideas | 灵感源源不断的社媒管家 | 文档 |
+| instagram-poster | 本地 Instagram 自动化运营专家 | 文档 |
 
 ### 🧬 专业领域
 
@@ -184,6 +188,7 @@ cd skills
 | remix-api-key-auth | Remix API 密钥安全配置指南 | 文档 |
 | emporia-energy | Emporia 能耗双模式智能监控 | Python |
 | amap-traffic | 实时路况查询与最优路线规划 | Python |
+| mcd-cn | 麦当劳中国优惠券智能助手 | 文档 |
 
 ## 项目结构
 
@@ -253,6 +258,11 @@ ai-agent-skills/
 ├── aperture/                 # L402 闪电付费网关
 ├── amap-traffic/             # 实时路况查询
 ├── agent-skills-tools/       # 技能安全审计
+├── airdrop-hunter/           # 加密空投追踪
+├── frinkiac/                 # 美剧截图表情包
+├── content-ideas/            # 社媒内容创意
+├── instagram-poster/         # Instagram 自动化
+├── mcd-cn/                   # 麦当劳优惠券
 ├── docs/                     # 详细文档
 └── README.md
 ```
