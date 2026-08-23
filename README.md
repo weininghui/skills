@@ -1,42 +1,86 @@
 # 🦞 AI Agent 全能技能库
 
-> **让你的 AI 从"能聊天"到"能干活"** — 175+ 个即插即用的能力模块，像乐高积木一样自由拼装。
+> ### 给 AI 装上 175 个"轮子"，让它从"能聊天"到"能干活"
+> 一套开箱即用的 AI Agent 能力引擎 —— 搜索、记忆、浏览器、支付、创作、安全，装上就能跑。
 
 <div align="center">
 
+![Skills](https://img.shields.io/badge/技能模块-175+-orange.svg?style=for-the-badge)
+![Domains](https://img.shields.io/badge/能力领域-9个-blue.svg?style=for-the-badge)
+![Security](https://img.shields.io/badge/安全分级-S+/S/A/B-brightgreen.svg?style=for-the-badge)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
-![Skills](https://img.shields.io/badge/skills-175+-orange.svg?style=for-the-badge)
-![Python](https://img.shields.io/badge/python-3.8+-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/node-16+-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-4.49+-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-16+-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-4.49+-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
-
-**一句话介绍**：AI 就像一台刚出厂的电脑——模型很聪明，但"什么都不会做"。这个项目给 AI 装上 175 个"手和脚"，让它会搜索、会记忆、会操作浏览器、会付款、会创作内容。
 
 ### 🛞 给 AI 装上轮子
 
 ```mermaid
 graph TB
-    AI["🤖 AI 大脑<br/>大模型 + 175 个技能"]
-    W1(("🔍 感知轮<br/>搜索·浏览"))
-    W2(("🧠 思考轮<br/>记忆·推理"))
-    W3(("⚡ 行动轮<br/>自动化·支付"))
-    W4(("🛡️ 安全轮<br/>审计·防护"))
+    AI["🤖 AI 大脑<br/>大模型 + 175 个技能"] 
+    W1(("🔍 感知轮<br/>搜索·浏览·读取"))
+    W2(("🧠 思考轮<br/>记忆·推理·进化"))
+    W3(("⚡ 行动轮<br/>自动化·支付·创作"))
+    W4(("🛡️ 安全轮<br/>审计·拦截·防护"))
 
-    AI --- W1
-    AI --- W2
-    AI --- W3
-    AI --- W4
+    AI === W1
+    AI === W2
+    AI === W3
+    AI === W4
 
-    style AI fill:#FFFDE7,stroke:#F9A825,stroke-width:3px
-    style W1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
-    style W2 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
-    style W3 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
-    style W4 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+    style AI fill:#FFFDE7,stroke:#F9A825,stroke-width:4px
+    style W1 fill:#E3F2FD,stroke:#1976D2,stroke-width:4px
+    style W2 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:4px
+    style W3 fill:#E8F5E9,stroke:#388E3C,stroke-width:4px
+    style W4 fill:#FFF3E0,stroke:#F57C00,stroke-width:4px
 ```
 
 > **每个技能就是一个轮子**：装上感知轮，AI 会搜索浏览；装上思考轮，AI 会记忆推理；装上行动轮，AI 会执行支付；四个轮子装齐，AI 就能真正"跑"起来。175 个技能，任你拼装。
+
+---
+
+## 🏆 三个数字看懂这个项目
+
+<div align="center">
+
+| 175+ | 9 | 4 |
+|:----:|:--:|:--:|
+| **即插即用技能** | **能力领域** | **安全分级** |
+| 搜索 / 办公 / 支付 / 创作 | 开发·金融·设计·职场… | S+ 到 B，全部标注 |
+
+</div>
+
+### 🤔 没有技能 vs 装上技能
+
+```mermaid
+graph LR
+    subgraph BEFORE["😴 只有模型的 AI"]
+        A1["💬 只会聊天"] 
+        A2["❌ 不会搜索"] 
+        A3["❌ 不会干活"]
+    end
+
+    subgraph AFTER["🚀 装上技能的 AI"]
+        B1["🔍 会搜索研究"]
+        B2["⚡ 会自动化执行"]
+        B3["💰 会处理支付"]
+        B4["🎨 会创作内容"]
+    end
+
+    style BEFORE fill:#F5F5F5,stroke:#9E9E9E,stroke-width:2px
+    style AFTER fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+    style A1 fill:#F5F5F5,stroke:#9E9E9E
+    style A2 fill:#F5F5F5,stroke:#9E9E9E
+    style A3 fill:#F5F5F5,stroke:#9E9E9E
+    style B1 fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
+    style B2 fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+    style B3 fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
+    style B4 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
+```
+
+**一句话介绍**：AI 就像一台刚出厂的电脑——模型很聪明，但"什么都不会做"。这个项目给 AI 装上 175 个"手和脚"，让它会搜索、会记忆、会操作浏览器、会付款、会创作内容。
 
 ---
 
