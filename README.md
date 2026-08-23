@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 42 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计等核心领域
+> 📚 共包含 57 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -84,6 +84,8 @@ cd skills
 | self-improvement | AI 持续进化与知识沉淀系统 | 文档 |
 | tiered-memory | LLM 驱动的智能分层记忆架构 | Python |
 | self-integration | 一键连接千款 SaaS 的智能集成中枢 | API |
+| everclaw | 去中心化 AI 推理基础设施 | Node.js |
+| claw-sync | OpenClaw 记忆安全同步专家 | Node.js |
 
 ### 🌐 浏览器与自动化
 
@@ -114,6 +116,8 @@ cd skills
 | zero-rules | 零成本拦截确定性任务 | Node.js |
 | secretcodex | 复古解码环遇上现代密码学 | 文档 |
 | full-stack-feature | 端到端特性开发 orchestration | 文档 |
+| code-mentor | 苏格拉底式 AI 编程导师 | Python |
+| browserless-agent | 专业无头浏览器自动化操控 | Python |
 
 ### 💰 金融与电商
 
@@ -125,6 +129,11 @@ cd skills
 | onchain | 多链加密资产一站式追踪终端 | CLI |
 | mintgarden | Chia NFT 市场数据实时追踪 | Node.js |
 | financial-calculator | 金融计算器 | Node.js |
+| suisec | Sui 链上交易安全守门人 | Python |
+| crypto-payments-ecommerce | 零手续费全球加密收款方案 | 文档 |
+| usd1transaction | Wormhole 跨链稳定币安全转账 | Node.js |
+| x402-direct | 加密支付 API 服务发现平台 | 文档 |
+| buy-anything | 对话式 Amazon 智能代购助手 | 文档 |
 
 ### 🎨 设计与营销
 
@@ -134,6 +143,9 @@ cd skills
 | afrexai-seo-content-engine | 零 API 的智能 SEO 内容生产引擎 | 文档 |
 | yc-cold-outreach | YC 认证的高转化冷邮件专家 | 文档 |
 | clawdbot-for-vcs | VC 合伙人智能投资工作流管家 | 文档 |
+| adcp-advertising | AI 驱动的全渠道广告自动化 | 文档 |
+| chargebee | 企业级订阅计费自动化管理 | 文档 |
+| afrexai-compliance-audit | 零成本启动企业合规认证 | 文档 |
 
 ### 🧬 专业领域
 
@@ -146,6 +158,9 @@ cd skills
 | brainrepo | 知识库管理 | Node.js |
 | openspec | 开放规范管理 | Node.js |
 | qwen3-tts-instruct | 阿里云多情绪实时语音合成 | API |
+| ridb-search | 联邦营地智能搜索定位助手 | Python |
+| security-skill-scanner | ClawdHub 技能安全守门人 | 文档 |
+| remix-api-key-auth | Remix API 密钥安全配置指南 | 文档 |
 
 ## 项目结构
 
