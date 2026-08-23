@@ -68,39 +68,39 @@ skill-name/
 
 ```mermaid
 graph TB
-    subgraph PERCEPTION["🔍 感知层 PERCEPTION"]
+    subgraph PERCEPTION["感知层 PERCEPTION"]
         direction LR
-        A1["🔎 多源搜索<br/>tavily-search-pro<br/>multi-search-engine"]
-        A2["🌐 浏览器控制<br/>agent-browser<br/>playwright-mcp"]
-        A3["📄 内容提取<br/>summarize<br/>paddleocr-doc-parsing"]
-        A4["📊 数据分析<br/>seo-content-engine<br/>competitor-analysis"]
-        A5["📡 实时监控<br/>aviation-weather<br/>amap-traffic"]
+        A1["多源搜索<br/>tavily-search-pro<br/>multi-search-engine"]
+        A2["浏览器控制<br/>agent-browser<br/>playwright-mcp"]
+        A3["内容提取<br/>summarize<br/>paddleocr-doc-parsing"]
+        A4["数据分析<br/>seo-content-engine<br/>competitor-analysis"]
+        A5["实时监控<br/>aviation-weather<br/>amap-traffic"]
     end
 
-    subgraph COGNITION["🧠 思考层 COGNITION"]
+    subgraph COGNITION["思考层 COGNITION"]
         direction LR
-        B1["🧬 自我进化<br/>self-improvement<br/>capability-evolver"]
-        B2["🕸️ 知识图谱<br/>knowledge-graph<br/>ontology"]
-        B3["💭 决策推理<br/>fact-checker<br/>humanize-ai-text"]
-        B4["📝 记忆管理<br/>memory-tiering<br/>zettelkasten"]
-        B5["🎨 创意生成<br/>content-ideas<br/>creative-writing"]
+        B1["自我进化<br/>self-improvement<br/>capability-evolver"]
+        B2["知识图谱<br/>knowledge-graph<br/>ontology"]
+        B3["决策推理<br/>fact-checker<br/>humanize-ai-text"]
+        B4["记忆管理<br/>memory-tiering<br/>zettelkasten"]
+        B5["创意生成<br/>content-ideas<br/>creative-writing"]
     end
 
-    subgraph ACTION["⚡ 执行层 ACTION"]
+    subgraph ACTION["执行层 ACTION"]
         direction LR
-        C1["🤖 自动化运营<br/>auto-reply<br/>instagram-poster"]
-        C2["💰 支付集成<br/>paypal<br/>solana-payments"]
-        C3["📧 通信管理<br/>wacli<br/>custom-smtp-sender"]
-        C4["📁 文件处理<br/>xlsx-pro<br/>tencent-cloud-cos"]
-        C5["🎬 内容创作<br/>ppt-master<br/>video-generation"]
+        C1["自动化运营<br/>auto-reply<br/>instagram-poster"]
+        C2["支付集成<br/>paypal<br/>solana-payments"]
+        C3["通信管理<br/>wacli<br/>custom-smtp-sender"]
+        C4["文件处理<br/>xlsx-pro<br/>tencent-cloud-cos"]
+        C5["内容创作<br/>ppt-master<br/>video-generation"]
     end
 
-    subgraph SECURITY["🛡️ 安全层 SECURITY"]
+    subgraph SECURITY["安全层 SECURITY"]
         direction LR
-        D1["🔒 安全审计<br/>aegis-audit<br/>tech-security-audit"]
-        D2["🛡️ 威胁检测<br/>skill-vetting<br/>otp-challenger"]
-        D3["🏗️ 代码沙箱<br/>docker-sandbox<br/>browser-secure"]
-        D4["🔑 身份认证<br/>base-8004<br/>remix-api-key-auth"]
+        D1["安全审计<br/>aegis-audit<br/>tech-security-audit"]
+        D2["威胁检测<br/>skill-vetting<br/>otp-challenger"]
+        D3["代码沙箱<br/>docker-sandbox<br/>browser-secure"]
+        D4["身份认证<br/>base-8004<br/>remix-api-key-auth"]
     end
 
     A1 --> B1
@@ -126,25 +126,6 @@ graph TB
     style COGNITION fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
     style ACTION fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
     style SECURITY fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
-```
-    C4 --> D2
-
-    style A1 fill:#E3F2FD,stroke:#1976D2
-    style A2 fill:#E3F2FD,stroke:#1976D2
-    style A3 fill:#E3F2FD,stroke:#1976D2
-    style A4 fill:#E3F2FD,stroke:#1976D2
-    style B1 fill:#FFF3E0,stroke:#F57C00
-    style B2 fill:#FFF3E0,stroke:#F57C00
-    style B3 fill:#FFF3E0,stroke:#F57C00
-    style B4 fill:#FFF3E0,stroke:#F57C00
-    style C1 fill:#E8F5E9,stroke:#388E3C
-    style C2 fill:#E8F5E9,stroke:#388E3C
-    style C3 fill:#E8F5E9,stroke:#388E3C
-    style C4 fill:#E8F5E9,stroke:#388E3C
-    style D1 fill:#FFEBEE,stroke:#D32F2F
-    style D2 fill:#FFEBEE,stroke:#D32F2F
-    style D3 fill:#FFEBEE,stroke:#D32F2F
-    style D4 fill:#FFEBEE,stroke:#D32F2F
 ```
 
 ---
@@ -401,56 +382,56 @@ cat tavily-search-pro/SKILL.md
 
 ```mermaid
 graph LR
-    subgraph RESEARCHER["🔬 智能研究员工作流"]
+    subgraph RESEARCHER["智能研究员工作流"]
         direction TB
-        R1["🔎 tavily-search-pro<br/>多源深度搜索"] --> R2["📄 summarize<br/>多模态内容摘要"]
-        R2 --> R3["🕸️ knowledge-graph<br/>结构化知识图谱"]
-        R3 --> R4["✅ fact-checker<br/>事实核查验证"]
-        R4 --> R5["📝 zettelkasten<br/>卡片笔记归档"]
-        R5 --> R6["📊 输出: 可信赖知识库"]
-        R1 -.-> R7["🧠 self-improvement<br/>搜索策略自优化"]
+        R1["tavily-search-pro<br/>多源深度搜索"] --> R2["summarize<br/>多模态内容摘要"]
+        R2 --> R3["knowledge-graph<br/>结构化知识图谱"]
+        R3 --> R4["fact-checker<br/>事实核查验证"]
+        R4 --> R5["zettelkasten<br/>卡片笔记归档"]
+        R5 --> R6["输出: 可信赖知识库"]
+        R1 -.-> R7["self-improvement<br/>搜索策略自优化"]
         R7 -.-> R1
     end
 
-    subgraph OPERATOR["📱 全自动运营工作流"]
+    subgraph OPERATOR["全自动运营工作流"]
         direction TB
-        O1["🌐 agent-browser<br/>社交媒体监控"] --> O2["💡 content-ideas<br/>爆款内容策划"]
-        O2 --> O3["✍️ humanize-ai-text<br/>AI 文本人性化"]
-        O3 --> O4["📸 instagram-poster<br/>多平台一键发布"]
-        O4 --> O5["💬 auto-reply<br/>智能评论互动"]
-        O5 --> O6["📊 输出: 7×24 无人运营"]
-        O1 -.-> O7["📈 competitor-analysis<br/>竞品动态追踪"]
+        O1["agent-browser<br/>社交媒体监控"] --> O2["content-ideas<br/>爆款内容策划"]
+        O2 --> O3["humanize-ai-text<br/>AI 文本人性化"]
+        O3 --> O4["instagram-poster<br/>多平台一键发布"]
+        O4 --> O5["auto-reply<br/>智能评论互动"]
+        O5 --> O6["输出: 7x24 无人运营"]
+        O1 -.-> O7["competitor-analysis<br/>竞品动态追踪"]
         O7 -.-> O2
     end
 
-    subgraph FINANCE["💹 金融监控工作流"]
+    subgraph FINANCE["金融监控工作流"]
         direction TB
-        F1["📈 claw-trader-lite<br/>跨市场行情监控"] --> F2["⚡ polymarket-arbitrage<br/>套利机会捕捉"]
-        F2 --> F3["🔔 ipo-alert<br/>新股申购提醒"]
-        F3 --> F4["💰 financial-search<br/>财经情报聚合"]
-        F4 --> F5["📋 输出: 实时投资预警"]
-        F1 -.-> F6["🔍 alpha-finder<br/>Alpha 信号挖掘"]
+        F1["claw-trader-lite<br/>跨市场行情监控"] --> F2["polymarket-arbitrage<br/>套利机会捕捉"]
+        F2 --> F3["ipo-alert<br/>新股申购提醒"]
+        F3 --> F4["financial-search<br/>财经情报聚合"]
+        F4 --> F5["输出: 实时投资预警"]
+        F1 -.-> F6["alpha-finder<br/>Alpha 信号挖掘"]
         F6 -.-> F2
     end
 
-    subgraph CREATOR["🎬 内容创作工作流"]
+    subgraph CREATOR["内容创作工作流"]
         direction TB
-        K1["💡 content-ideas<br/>创意灵感库"] --> K2["✍️ creative-writing<br/>AI 创意写作"]
-        K2 --> K3["🎨 baoyu-cover-image<br/>专业封面生成"]
-        K3 --> K4["📊 ppt-master<br/>演示文稿制作"]
-        K4 --> K5["🎬 video-generation<br/>短视频批量产出"]
-        K5 --> K6["📱 小红书/Instagram<br/>多平台分发"]
-        K1 -.-> K7["🖼️ baoyu-article-illustrator<br/>文章智能配图"]
+        K1["content-ideas<br/>创意灵感库"] --> K2["creative-writing<br/>AI 创意写作"]
+        K2 --> K3["baoyu-cover-image<br/>专业封面生成"]
+        K3 --> K4["ppt-master<br/>演示文稿制作"]
+        K4 --> K5["video-generation<br/>短视频批量产出"]
+        K5 --> K6["多平台分发"]
+        K1 -.-> K7["baoyu-article-illustrator<br/>文章智能配图"]
         K7 -.-> K3
     end
 
-    subgraph SECURITY_TEAM["🔒 安全开发工作流"]
+    subgraph SECURITY_TEAM["安全开发工作流"]
         direction TB
-        S1["🏗️ docker-sandbox<br/>隔离执行环境"] --> S2["🔐 aegis-audit<br/>代码安全审计"]
-        S2 --> S3["🛡️ tech-security-audit<br/>漏洞扫描评估"]
-        S3 --> S4["✅ skill-vetting<br/>第三方技能审查"]
-        S4 --> S5["📋 输出: 安全合规报告"]
-        S1 -.-> S6["🔑 otp-challenger<br/>操作双因素认证"]
+        S1["docker-sandbox<br/>隔离执行环境"] --> S2["aegis-audit<br/>代码安全审计"]
+        S2 --> S3["tech-security-audit<br/>漏洞扫描评估"]
+        S3 --> S4["skill-vetting<br/>第三方技能审查"]
+        S4 --> S5["输出: 安全合规报告"]
+        S1 -.-> S6["otp-challenger<br/>操作双因素认证"]
         S6 -.-> S2
     end
 
