@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 75 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 80 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -95,6 +95,7 @@ cd skills
 | docker-sandbox | VM 级隔离的安全代码执行环境 | Docker |
 | cal-com-automation | Cal.com 智能日程自动化助手 | 文档 |
 | clawdbot-documentation-expert | Clawdbot 文档实时查询专家 | Shell |
+| browser-secure | Vault 级安全浏览器自动化方案 | TypeScript |
 
 ### 📝 内容处理
 
@@ -106,6 +107,7 @@ cd skills
 | content-ideas-generator | 病毒式社媒内容创意引擎 | 文档 |
 | meeting-notes | 智能会议纪要结构化整理专家 | 文档 |
 | paddleocr-doc-parsing | 百度官方 OCR 文档解析引擎 | Python |
+| vocabulary-builder | 基于间隔重复的智能词汇构建器 | 文档 |
 
 ### 🛠️ 开发工具
 
@@ -127,6 +129,7 @@ cd skills
 | feishu-robot-registry | 飞书机器人集中注册管理工具 | Node.js |
 | xlsx-pro | 专业级 Excel 表格处理与财务建模 | Python |
 | microsoft-code-reference | Azure 开发者的智能文档助手 | 文档 |
+| agent-skills-tools | Agent Skills 生态安全审计卫士 | Shell |
 
 ### 💰 金融与电商
 
@@ -150,6 +153,7 @@ cd skills
 | btc15-autonomous-market | 全自主 BTC 预测市场自动化交易 | Shell |
 | alpha-finder | 预测市场智能投研助手 | Shell |
 | moltpho | AI 自主购物与加密支付管家 | Python |
+| aperture | L402 闪电付费 API 网关 | Shell |
 
 ### 🎨 设计与营销
 
@@ -179,6 +183,7 @@ cd skills
 | security-skill-scanner | ClawdHub 技能安全守门人 | 文档 |
 | remix-api-key-auth | Remix API 密钥安全配置指南 | 文档 |
 | emporia-energy | Emporia 能耗双模式智能监控 | Python |
+| amap-traffic | 实时路况查询与最优路线规划 | Python |
 
 ## 项目结构
 
@@ -243,6 +248,11 @@ ai-agent-skills/
 ├── alpha-finder/             # 预测市场投研
 ├── moltpho/                  # AI 自主购物
 ├── emporia-energy/           # 能耗智能监控
+├── vocabulary-builder/       # 智能词汇构建
+├── browser-secure/           # 安全浏览器自动化
+├── aperture/                 # L402 闪电付费网关
+├── amap-traffic/             # 实时路况查询
+├── agent-skills-tools/       # 技能安全审计
 ├── docs/                     # 详细文档
 └── README.md
 ```
