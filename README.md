@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 107 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 112 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -146,6 +146,7 @@ cd skills
 | custom-smtp-sender | 安全可靠的自动化邮件发送助手 | Python |
 | email-sequence-builder | 高转化邮件营销序列生成器 | 文档 |
 | switch-modes | AI 模型动态调度与成本优化 | 文档 |
+| clawcost | OpenClaw 智能成本追踪专家 | Python |
 
 ### 💰 金融与电商
 
@@ -192,6 +193,8 @@ cd skills
 | contract-generator | 自由职业合同智能生成专家 | 文档 |
 | freelance-proposal-engine | 高转化自由职业投标助手 | 文档 |
 | vestaboard | 机械翻转屏智能消息助手 | Node.js |
+| salesforce-sdr-admin | 企业级 Salesforce 安全自动化助手 | 文档 |
+| x-bookmarks | 智能书签整理与行动转化助手 | Shell |
 
 ### 🧬 专业领域
 
@@ -210,6 +213,8 @@ cd skills
 | emporia-energy | Emporia 能耗双模式智能监控 | Python |
 | amap-traffic | 实时路况查询与最优路线规划 | Python |
 | globepilot-ai-agent-2 | 去中心化 AI 智能旅行管家 | 文档 |
+| hebrew-nikud | 精准希伯来语 TTS 发音指南 | 文档 |
+| near-faucet | NEAR 测试网代币一键领取助手 | Node.js |
 | mcd-cn | 麦当劳中国优惠券智能助手 | 文档 |
 
 ## 项目结构
