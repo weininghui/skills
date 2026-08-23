@@ -60,9 +60,9 @@ skill-name/
 
 ```mermaid
 graph TB
-    A["📥 第一步 收集信息<br/><b>搜索网页 · 浏览动态 · 读取文件</b>"] --> B["🧠 第二步 理解分析<br/><b>记住重点 · 判断决策 · 学习经验</b>"]
-    B --> C["⚡ 第三步 自动执行<br/><b>完成任务 · 处理支付 · 创作内容</b>"]
-    C --> D["🛡️ 第四步 安全守护<br/><b>检查风险 · 拦截威胁 · 保护数据</b>"]
+    A["📥 收集信息"] --> B["🧠 理解分析"]
+    B --> C["⚡ 自动执行"]
+    C --> D["🛡️ 安全守护"]
 
     style A fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
     style B fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
@@ -334,13 +334,13 @@ cat tavily-search-pro/SKILL.md
 ```mermaid
 graph LR
     subgraph WORK["💼 工作场景"]
-        R["🔬 研究助理<br/>搜集 · 提炼 · 归档"]
-        O["📱 运营专员<br/>盯平台 · 写内容 · 发布"]
-        F["💹 理财顾问<br/>盯行情 · 找机会 · 提醒"]
+        R["🔬 研究助理"]
+        O["📱 运营专员"]
+        F["💹 理财顾问"]
     end
     subgraph LIFE["🏠 生活场景"]
-        C["🎬 创作伙伴<br/>出创意 · 写文案 · 出成品"]
-        S["🔒 安全卫士<br/>查漏洞 · 审代码 · 出报告"]
+        C["🎬 创作伙伴"]
+        S["🔒 安全卫士"]
     end
 
     style WORK fill:#F5F5F5,stroke:#616161,stroke-width:1px
