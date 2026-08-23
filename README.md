@@ -1,6 +1,6 @@
-# 🦞 AI Agent Skills Toolkit
+# 🦞 AI Agent 全能技能库
 
-> **一套让 AI Agent 从"能用"到"好用"的核心能力引擎** — 166+ 个即插即用的技能模块，覆盖感知、思考、执行全链路
+> **让你的 AI 从"能聊天"到"能干活"** — 166+ 个即插即用的能力模块，像乐高积木一样自由拼装。
 
 <div align="center">
 
@@ -9,74 +9,77 @@
 ![Python](https://img.shields.io/badge/python-3.8+-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/node-16+-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-4.49+-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-9.5+-4169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
 </div>
+
+**一句话介绍**：AI 就像一台刚出厂的电脑——模型很聪明，但"什么都不会做"。这个项目给 AI 装上 166 个"手和脚"，让它会搜索、会记忆、会操作浏览器、会付款、会创作内容。
 
 ---
 
-## 🎯 这个项目解决什么问题？
+## 🎯 这是什么？
 
-构建一个真正有用的 AI Agent，最大的瓶颈不是大模型本身，而是**让它能做事的能力模块**。
+```mermaid
+%% 能力地图：166+ 技能的分布
+pie showData
+    title 技能分布（共 166+）
+    "🛠️ 开发工具" : 36
+    "💰 金融电商" : 21
+    "🎨 设计营销" : 18
+    "🧬 专业领域" : 17
+    "📝 内容处理" : 11
+    "🤖 Agent 进化" : 10
+    "🔍 搜索获取" : 8
+    "🌐 浏览器自动化" : 7
+```
 
-搜索、记忆、浏览器控制、支付集成、安全审计……每一项都需要大量工程实践。本项目将这些能力**标准化、模块化、开箱即用**，让你专注于 Agent 的核心逻辑，而非重复造轮子。
-
-<div align="center">
-
-| 传统方式 | 本项目 |
+| 传统做法（要写代码） | 用本项目（即插即用） |
 |:--------:|:------:|
-| 每个项目从零搭建 | **166+ 经过验证的能力模块** |
-| 重复开发搜索/记忆/自动化 | **标准化接口一键集成** |
-| 散落各处难以复用 | **跨项目无缝复用** |
+| 花 3 个月从零搭搜索系统 | **1 分钟装上现成的搜索技能** |
+| 重复造轮子，项目间不通用 | **标准化模块，跨项目复用** |
+| 自己管安全、管支付、管测试 | **安全分级，开箱即用** |
 
-</div>
+> 💡 **写给非技术朋友**：可以把每个技能想象成 App Store 里的一个 App。你不需要会写程序，只要"装上"它，AI 就多一项本领。
 
 ---
 
 ## 💡 核心亮点
 
-### 🧩 模块化架构 — 按需拼装，零耦合
+### 🧩 即插即用 — 像装 App 一样装技能
 
-每个技能独立封装，遵循统一规范：
+每个技能独立封装，复制即用，无需改任何代码：
 
 ```
 skill-name/
-├── SKILL.md          # 技能说明文档（含使用指南）
+├── SKILL.md          # 技能说明（告诉 AI 怎么用）
 ├── _meta.json        # 元数据（版本、依赖、安全等级）
 ├── scripts/          # 可执行脚本（可选）
 └── references/       # 参考资料（可选）
 ```
 
-**无需修改其他代码，复制即用。**
-
-### 🔒 安全分级 — 一眼识别风险
-
-所有技能经过安全评估，标注四级安全等级：
-
-<div align="center">
-
-| 等级 | 说明 | 适用场景 |
-|:----:|------|----------|
-| <img src="https://img.shields.io/badge/S%2B-00C853.svg?style=for-the-badge" /> | 纯文档/零执行，绝对安全 | 生产环境 |
-| <img src="https://img.shields.io/badge/S-4CAF50.svg?style=for-the-badge" /> | 仅本地文件操作，无网络通信 | 可信环境 |
-| <img src="https://img.shields.io/badge/A-FFC107.svg?style=for-the-badge" /> | 受控网络请求，权限明确 | 需审计环境 |
-| <img src="https://img.shields.io/badge/B-FF9800.svg?style=for-the-badge" /> | 需要 API Key 或外部依赖 | 开发测试 |
-
-</div>
-
-### 🌍 全场景覆盖 — 从搜索到支付
+### 🌍 AI 是怎么干活的？— 一条流水线看懂
 
 ```mermaid
 graph TB
-    A["📥 收集信息<br/>搜索网页 · 浏览动态 · 读取文件"] --> B["🧠 理解分析<br/>记住重点 · 判断决策 · 学习经验"]
-    B --> C["⚡ 自动执行<br/>完成任务 · 处理支付 · 创作内容"]
-    C --> D["🛡️ 安全守护<br/>检查风险 · 拦截威胁 · 保护数据"]
+    A["📥 第一步 收集信息<br/><b>搜索网页 · 浏览动态 · 读取文件</b>"] --> B["🧠 第二步 理解分析<br/><b>记住重点 · 判断决策 · 学习经验</b>"]
+    B --> C["⚡ 第三步 自动执行<br/><b>完成任务 · 处理支付 · 创作内容</b>"]
+    C --> D["🛡️ 第四步 安全守护<br/><b>检查风险 · 拦截威胁 · 保护数据</b>"]
 
     style A fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
     style B fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
     style C fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
     style D fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
 ```
+
+> 就像做一顿饭：先买菜（收集）→ 再配菜（分析）→ 下锅炒（执行）→ 试吃把关（安全）。166 个技能覆盖这条流水线的每一步。
+
+### 🔒 安全分级 — 每个技能都带"健康证"
+
+| 等级 | 含义（大白话） | 放心程度 |
+|:----:|------|----------|
+| <img src="https://img.shields.io/badge/S%2B-00C853.svg?style=for-the-badge" /> | 纯说明文档，不碰任何东西 | ✅ 绝对放心 |
+| <img src="https://img.shields.io/badge/S-4CAF50.svg?style=for-the-badge" /> | 只在本地动文件，不联网 | ✅ 很放心 |
+| <img src="https://img.shields.io/badge/A-FFC107.svg?style=for-the-badge" /> | 会上网，但权限写得很清楚 | ⚠️ 值得信任 |
+| <img src="https://img.shields.io/badge/B-FF9800.svg?style=for-the-badge" /> | 需要你提供密钥才能用 | 🔑 谨慎使用 |
 
 ---
 
@@ -98,7 +101,7 @@ cat tavily-search-pro/SKILL.md
 
 ## 📚 技能目录
 
-> **149+ 个精选技能**，按能力域分类，每个都经过实战验证
+> **166+ 个精选技能**，按能力域分类，每个都经过实战验证
 
 <div align="center">
 
@@ -326,9 +329,28 @@ cat tavily-search-pro/SKILL.md
 
 ---
 
-## 🎯 典型应用场景
+## 🎯 典型应用场景 — AI 能帮你做什么？
 
-<div align="center">
+```mermaid
+graph LR
+    subgraph WORK["💼 工作场景"]
+        R["🔬 研究助理<br/>搜集 · 提炼 · 归档"]
+        O["📱 运营专员<br/>盯平台 · 写内容 · 发布"]
+        F["💹 理财顾问<br/>盯行情 · 找机会 · 提醒"]
+    end
+    subgraph LIFE["🏠 生活场景"]
+        C["🎬 创作伙伴<br/>出创意 · 写文案 · 出成品"]
+        S["🔒 安全卫士<br/>查漏洞 · 审代码 · 出报告"]
+    end
+
+    style WORK fill:#F5F5F5,stroke:#616161,stroke-width:1px
+    style LIFE fill:#F5F5F5,stroke:#616161,stroke-width:1px
+    style R fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
+    style O fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+    style F fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
+    style C fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
+    style S fill:#FFEBEE,stroke:#D32F2F,stroke-width:2px
+```
 
 | 场景 | AI 帮您做什么 | 举个简单例子 |
 |------|--------------|-------------|
@@ -337,8 +359,6 @@ cat tavily-search-pro/SKILL.md
 | 💹 **理财顾问** | 盯行情 · 找机会 · 及时提醒 | 价格异常波动时第一时间通知您 |
 | 🎬 **创作伙伴** | 出创意 · 写文案 · 出成品 | 一句话生成海报、PPT、短视频 |
 | 🔒 **安全卫士** | 查漏洞 · 审代码 · 出报告 | 发布前自动做一次安全体检 |
-
-</div>
 
 ---
 
