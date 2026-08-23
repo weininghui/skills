@@ -19,11 +19,11 @@
 
 ```mermaid
 graph TB
-    AI["🤖 AI 大脑<br/>大模型 + 175 个技能"] 
-    W1(("🔍 感知轮<br/>搜索·浏览·读取"))
-    W2(("🧠 思考轮<br/>记忆·推理·进化"))
-    W3(("⚡ 行动轮<br/>自动化·支付·创作"))
-    W4(("🛡️ 安全轮<br/>审计·拦截·防护"))
+    AI["🤖 AI 大脑"] 
+    W1(("🔍 感知轮"))
+    W2(("🧠 思考轮"))
+    W3(("⚡ 行动轮"))
+    W4(("🛡️ 安全轮"))
 
     AI === W1
     AI === W2
@@ -56,21 +56,21 @@ graph TB
 
 ```mermaid
 graph LR
-    subgraph BEFORE["😴 只有模型的 AI"]
+    subgraph BEF["😴 没有技能"]
         A1["💬 只会聊天"] 
         A2["❌ 不会搜索"] 
         A3["❌ 不会干活"]
     end
 
-    subgraph AFTER["🚀 装上技能的 AI"]
-        B1["🔍 会搜索研究"]
-        B2["⚡ 会自动化执行"]
-        B3["💰 会处理支付"]
-        B4["🎨 会创作内容"]
+    subgraph AFT["🚀 装上技能"]
+        B1["🔍 会搜索"]
+        B2["⚡ 会执行"]
+        B3["💰 会支付"]
+        B4["🎨 会创作"]
     end
 
-    style BEFORE fill:#F5F5F5,stroke:#9E9E9E,stroke-width:2px
-    style AFTER fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+    style BEF fill:#F5F5F5,stroke:#9E9E9E,stroke-width:2px
+    style AFT fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
     style A1 fill:#F5F5F5,stroke:#9E9E9E
     style A2 fill:#F5F5F5,stroke:#9E9E9E
     style A3 fill:#F5F5F5,stroke:#9E9E9E
@@ -138,7 +138,7 @@ graph TB
     style D fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
 ```
 
-> 就像做一顿饭：先买菜（收集）→ 再配菜（分析）→ 下锅炒（执行）→ 试吃把关（安全）。166 个技能覆盖这条流水线的每一步。
+> 就像做一顿饭：先买菜（收集）→ 再配菜（分析）→ 下锅炒（执行）→ 试吃把关（安全）。175 个技能覆盖这条流水线的每一步。
 
 ### 🔒 安全分级 — 每个技能都带"健康证"
 
