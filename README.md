@@ -68,36 +68,14 @@ skill-name/
 
 ```mermaid
 graph TB
-    subgraph Perception["感知层"]
-        A1["搜索"] --> A2["浏览器"] --> A3["内容"]
-    end
+    A["📥 收集信息<br/>搜索网页 · 浏览动态 · 读取文件"] --> B["🧠 理解分析<br/>记住重点 · 判断决策 · 学习经验"]
+    B --> C["⚡ 自动执行<br/>完成任务 · 处理支付 · 创作内容"]
+    C --> D["🛡️ 安全守护<br/>检查风险 · 拦截威胁 · 保护数据"]
 
-    subgraph Cognition["思考层"]
-        B1["记忆"] --> B2["推理"] --> B3["进化"]
-    end
-
-    subgraph Action["执行层"]
-        C1["自动化"] --> C2["支付"] --> C3["创作"]
-    end
-
-    subgraph Security["安全层"]
-        D1["审计"] --> D2["检测"] --> D3["沙箱"]
-    end
-
-    A1 --> B1
-    A2 --> B2
-    A3 --> B3
-    B1 --> C1
-    B2 --> C2
-    B3 --> C3
-    C1 --> D1
-    C2 --> D2
-    C3 --> D3
-
-    style Perception fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
-    style Cognition fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
-    style Action fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
-    style Security fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
+    style A fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
+    style B fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
+    style C fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+    style D fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
 ```
 
 ---
@@ -352,24 +330,15 @@ cat tavily-search-pro/SKILL.md
 
 <div align="center">
 
-```mermaid
-graph TB
-    R[tavily-search-pro] --> S[summarize] --> K[knowledge-graph] --> F[fact-checker] --> Z[zettelkasten] --> O[输出]
-    A[agent-browser] --> I[content-ideas] --> H[humanize-ai-text] --> P[instagram-poster] --> C[auto-reply]
-    C[claw-trader-lite] --> A[polymarket-arbitrage] --> I[ipo-alert] --> F[financial-search] --> W[预警]
-    I[content-ideas] --> W[creative-writing] --> C[baoyu-cover-image] --> P[ppt-master] --> V[video-generation] --> D[多平台分发]
-    D[docker-sandbox] --> A[aegis-audit] --> T[tech-security-audit] --> S[skill-vetting] --> R[认证报告]
-```
+| 场景 | AI 帮您做什么 | 举个简单例子 |
+|------|--------------|-------------|
+| 🔬 **研究助理** | 搜集资料 · 提炼重点 · 整理归档 | 帮您快速读完 100 篇文档并总结要点 |
+| 📱 **运营专员** | 盯平台 · 写内容 · 定时发布 | 7×24 自动更新您的社交账号 |
+| 💹 **理财顾问** | 盯行情 · 找机会 · 及时提醒 | 价格异常波动时第一时间通知您 |
+| 🎬 **创作伙伴** | 出创意 · 写文案 · 出成品 | 一句话生成海报、PPT、短视频 |
+| 🔒 **安全卫士** | 查漏洞 · 审代码 · 出报告 | 发布前自动做一次安全体检 |
 
 </div>
-
-| 场景 | 技能组合 | 效果 |
-|------|----------|------|
-| 🔬 **智能研究员** | tavily-search-pro → summarize → knowledge-graph → fact-checker → zettelkasten | 多源搜索 → 摘要 → 知识图谱 → 核查 → 归档，端到端知识管理 |
-| 📱 **全自动运营** | agent-browser → content-ideas → humanize-ai-text → instagram-poster → auto-reply | 监控 → 策划 → 润色 → 发布 → 互动，7×24 无人运营 |
-| 💹 **金融监控** | claw-trader-lite → polymarket-arbitrage → ipo-alert → financial-search | 行情 → 套利 → 提醒 → 情报，多市场实时预警 |
-| 🎬 **内容创作** | content-ideas → creative-writing → baoyu-cover-image → ppt-master → video-generation | 灵感 → 写作 → 封面 → PPT → 视频，全形态内容产出 |
-| 🔒 **安全开发** | docker-sandbox → aegis-audit → tech-security-audit → skill-vetting → otp-challenger | 隔离 → 审计 → 扫描 → 审查 → 认证，全链路安全防护 |
 
 ---
 
@@ -379,7 +348,7 @@ graph TB
 
 | 指标 | 数值 | 图标 |
 |:----:|:----:|:----:|
-| 技能总数 | **164+** | <img src="https://img.shields.io/badge/📦_技能-164+-orange?style=for-the-badge" /> |
+| 技能总数 | **166+** | <img src="https://img.shields.io/badge/📦_技能-166+-orange?style=for-the-badge" /> |
 | 覆盖领域 | **8 大能力域** | <img src="https://img.shields.io/badge/🎯_领域-8个-blue?style=for-the-badge" /> |
 | 平均启动 | **< 100ms** | <img src="https://img.shields.io/badge/⚡_启动-<100ms-green?style=for-the-badge" /> |
 | 内存占用 | **< 50MB** | <img src="https://img.shields.io/badge/💾_内存-<50MB-purple?style=for-the-badge" /> |
@@ -391,7 +360,7 @@ graph TB
 
 ## 🛣️ 路线图
 
-- [x] 164+ 技能模块标准化封装
+- [x] 166+ 技能模块标准化封装
 - [x] 安全分级体系（S+/S/A/B）
 - [x] 统一的 SKILL.md + _meta.json 规范
 - [ ] 技能市场与在线安装
