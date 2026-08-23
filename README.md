@@ -1,11 +1,11 @@
 # 🦞 AI Agent Skills Toolkit
 
-> **一套让 AI Agent 从"能用"到"好用"的核心能力引擎** — 164+ 个即插即用的技能模块，覆盖感知、思考、执行全链路
+> **一套让 AI Agent 从"能用"到"好用"的核心能力引擎** — 166+ 个即插即用的技能模块，覆盖感知、思考、执行全链路
 
 <div align="center">
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
-![Skills](https://img.shields.io/badge/skills-164+-orange.svg?style=for-the-badge)
+![Skills](https://img.shields.io/badge/skills-166+-orange.svg?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3.8+-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/node-16+-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-4.49+-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -25,7 +25,7 @@
 
 | 传统方式 | 本项目 |
 |:--------:|:------:|
-| 每个项目从零搭建 | **164+ 经过验证的能力模块** |
+| 每个项目从零搭建 | **166+ 经过验证的能力模块** |
 | 重复开发搜索/记忆/自动化 | **标准化接口一键集成** |
 | 散落各处难以复用 | **跨项目无缝复用** |
 
@@ -353,65 +353,12 @@ cat tavily-search-pro/SKILL.md
 <div align="center">
 
 ```mermaid
-graph LR
-    subgraph RESEARCHER["智能研究员工作流"]
-        direction TB
-        R1["tavily-search-pro<br/>多源深度搜索"] --> R2["summarize<br/>多模态内容摘要"]
-        R2 --> R3["knowledge-graph<br/>结构化知识图谱"]
-        R3 --> R4["fact-checker<br/>事实核查验证"]
-        R4 --> R5["zettelkasten<br/>卡片笔记归档"]
-        R5 --> R6["输出: 可信赖知识库"]
-        R1 -.-> R7["self-improvement<br/>搜索策略自优化"]
-        R7 -.-> R1
-    end
-
-    subgraph OPERATOR["全自动运营工作流"]
-        direction TB
-        O1["agent-browser<br/>社交媒体监控"] --> O2["content-ideas<br/>爆款内容策划"]
-        O2 --> O3["humanize-ai-text<br/>AI 文本人性化"]
-        O3 --> O4["instagram-poster<br/>多平台一键发布"]
-        O4 --> O5["auto-reply<br/>智能评论互动"]
-        O5 --> O6["输出: 7x24 无人运营"]
-        O1 -.-> O7["competitor-analysis<br/>竞品动态追踪"]
-        O7 -.-> O2
-    end
-
-    subgraph FINANCE["金融监控工作流"]
-        direction TB
-        F1["claw-trader-lite<br/>跨市场行情监控"] --> F2["polymarket-arbitrage<br/>套利机会捕捉"]
-        F2 --> F3["ipo-alert<br/>新股申购提醒"]
-        F3 --> F4["financial-search<br/>财经情报聚合"]
-        F4 --> F5["输出: 实时投资预警"]
-        F1 -.-> F6["alpha-finder<br/>Alpha 信号挖掘"]
-        F6 -.-> F2
-    end
-
-    subgraph CREATOR["内容创作工作流"]
-        direction TB
-        K1["content-ideas<br/>创意灵感库"] --> K2["creative-writing<br/>AI 创意写作"]
-        K2 --> K3["baoyu-cover-image<br/>专业封面生成"]
-        K3 --> K4["ppt-master<br/>演示文稿制作"]
-        K4 --> K5["video-generation<br/>短视频批量产出"]
-        K5 --> K6["多平台分发"]
-        K1 -.-> K7["baoyu-article-illustrator<br/>文章智能配图"]
-        K7 -.-> K3
-    end
-
-    subgraph SECURITY_TEAM["安全开发工作流"]
-        direction TB
-        S1["docker-sandbox<br/>隔离执行环境"] --> S2["aegis-audit<br/>代码安全审计"]
-        S2 --> S3["tech-security-audit<br/>漏洞扫描评估"]
-        S3 --> S4["skill-vetting<br/>第三方技能审查"]
-        S4 --> S5["输出: 安全合规报告"]
-        S1 -.-> S6["otp-challenger<br/>操作双因素认证"]
-        S6 -.-> S2
-    end
-
-    style RESEARCHER fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
-    style OPERATOR fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
-    style FINANCE fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
-    style CREATOR fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
-    style SECURITY_TEAM fill:#FFEBEE,stroke:#D32F2F,stroke-width:2px
+graph TB
+    R[tavily-search-pro] --> S[summarize] --> K[knowledge-graph] --> F[fact-checker] --> Z[zettelkasten] --> O[输出]
+    A[agent-browser] --> I[content-ideas] --> H[humanize-ai-text] --> P[instagram-poster] --> C[auto-reply]
+    C[claw-trader-lite] --> A[polymarket-arbitrage] --> I[ipo-alert] --> F[financial-search] --> W[预警]
+    I[content-ideas] --> W[creative-writing] --> C[baoyu-cover-image] --> P[ppt-master] --> V[video-generation] --> D[多平台分发]
+    D[docker-sandbox] --> A[aegis-audit] --> T[tech-security-audit] --> S[skill-vetting] --> R[认证报告]
 ```
 
 </div>
