@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 89 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 94 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -87,6 +87,7 @@ cd skills
 | everclaw | 去中心化 AI 推理基础设施 | Node.js |
 | claw-sync | OpenClaw 记忆安全同步专家 | Node.js |
 | learning-engine | 经验驱动的持续进化学习引擎 | 文档 |
+| knowledge-graph | 个人知识图谱智能管理专家 | Python |
 
 ### 🌐 浏览器与自动化
 
@@ -111,6 +112,7 @@ cd skills
 | vocabulary-builder | 基于间隔重复的智能词汇构建器 | 文档 |
 | frinkiac | 经典美剧台词截图与表情包生成 | 文档 |
 | fact-checker | 自动化事实核查与信源验证专家 | 文档 |
+| yt-video-downloader | 多格式视频下载与音频提取利器 | 文档 |
 
 ### 🛠️ 开发工具
 
@@ -134,6 +136,8 @@ cd skills
 | microsoft-code-reference | Azure 开发者的智能文档助手 | 文档 |
 | agent-skills-tools | Agent Skills 生态安全审计卫士 | Shell |
 | otp-challenger | 敏感操作前的双因素认证 | Shell |
+| readme-generator | 自动化项目文档生成专家 | 文档 |
+| stdio-skill | 本地文件安全收发工作站 | Node.js |
 
 ### 💰 金融与电商
 
@@ -159,6 +163,7 @@ cd skills
 | moltpho | AI 自主购物与加密支付管家 | Python |
 | aperture | L402 闪电付费 API 网关 | Shell |
 | airdrop-hunter | 加密空投智能追踪与管理助手 | 文档 |
+| finance-skill | 隐私优先的本地智能记账助手 | Shell |
 
 ### 🎨 设计与营销
 
@@ -271,6 +276,11 @@ ai-agent-skills/
 ├── otp-challenger/           # 双因素认证
 ├── fact-checker/             # 事实核查专家
 ├── learning-engine/          # 持续学习引擎
+├── readme-generator/         # README 自动化生成
+├── knowledge-graph/          # 知识图谱管理
+├── stdio-skill/              # 本地文件收发
+├── yt-video-downloader/      # 视频下载音频提取
+├── finance-skill/            # 智能记账助手
 ├── docs/                     # 详细文档
 └── README.md
 ```
