@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 117 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 121 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -147,6 +147,8 @@ cd skills
 | email-sequence-builder | 高转化邮件营销序列生成器 | 文档 |
 | switch-modes | AI 模型动态调度与成本优化 | 文档 |
 | clawcost | OpenClaw 智能成本追踪专家 | Python |
+| voice-agent | 本地智能语音交互桥接 | Python |
+| opcode | AI 智能体零 Token 工作流执行层 | 文档 |
 
 ### 💰 金融与电商
 
@@ -220,6 +222,8 @@ cd skills
 | near-faucet | NEAR 测试网代币一键领取助手 | Node.js |
 | near-subaccount | NEAR 区块链子账户管理专家 | Node.js |
 | base-8004 | AI 代理永久链上身份注册 | 文档 |
+| zettelkasten | AI 增强的卡片盒笔记系统 | Python |
+| kasia | Kaspa 链上端到端加密通讯 | 文档 |
 | mcd-cn | 麦当劳中国优惠券智能助手 | 文档 |
 
 ## 项目结构
