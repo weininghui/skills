@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 70 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 75 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -125,6 +125,8 @@ cd skills
 | sendook-openclaw | 企业级邮件收发自动化 | 文档 |
 | commit-analyzer | Git 提交健康度智能监测仪 | Shell |
 | feishu-robot-registry | 飞书机器人集中注册管理工具 | Node.js |
+| xlsx-pro | 专业级 Excel 表格处理与财务建模 | Python |
+| microsoft-code-reference | Azure 开发者的智能文档助手 | 文档 |
 
 ### 💰 金融与电商
 
@@ -146,6 +148,8 @@ cd skills
 | solana-payments | Solana USDC 订阅支付链接生成 | 文档 |
 | moneydevkit | 5分钟极速集成的全球化支付方案 | Node.js |
 | btc15-autonomous-market | 全自主 BTC 预测市场自动化交易 | Shell |
+| alpha-finder | 预测市场智能投研助手 | Shell |
+| moltpho | AI 自主购物与加密支付管家 | Python |
 
 ### 🎨 设计与营销
 
@@ -174,6 +178,7 @@ cd skills
 | ridb-search | 联邦营地智能搜索定位助手 | Python |
 | security-skill-scanner | ClawdHub 技能安全守门人 | 文档 |
 | remix-api-key-auth | Remix API 密钥安全配置指南 | 文档 |
+| emporia-energy | Emporia 能耗双模式智能监控 | Python |
 
 ## 项目结构
 
@@ -233,6 +238,11 @@ ai-agent-skills/
 ├── geb-aesthetics/           # GEB 哲学多模态创作
 ├── feishu-robot-registry/    # 飞书机器人管理
 ├── btc15-autonomous-market/  # BTC 预测市场自动化
+├── xlsx-pro/                 # Excel 财务建模
+├── microsoft-code-reference/ # Azure 文档助手
+├── alpha-finder/             # 预测市场投研
+├── moltpho/                  # AI 自主购物
+├── emporia-energy/           # 能耗智能监控
 ├── docs/                     # 详细文档
 └── README.md
 ```
