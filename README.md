@@ -1,18 +1,18 @@
 # 🦞 AI Agent 全能技能库
 
-> **让你的 AI 从"能聊天"到"能干活"** — 166+ 个即插即用的能力模块，像乐高积木一样自由拼装。
+> **让你的 AI 从"能聊天"到"能干活"** — 175+ 个即插即用的能力模块，像乐高积木一样自由拼装。
 
 <div align="center">
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
-![Skills](https://img.shields.io/badge/skills-166+-orange.svg?style=for-the-badge)
+![Skills](https://img.shields.io/badge/skills-175+-orange.svg?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3.8+-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/node-16+-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-4.49+-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
 
-**一句话介绍**：AI 就像一台刚出厂的电脑——模型很聪明，但"什么都不会做"。这个项目给 AI 装上 166 个"手和脚"，让它会搜索、会记忆、会操作浏览器、会付款、会创作内容。
+**一句话介绍**：AI 就像一台刚出厂的电脑——模型很聪明，但"什么都不会做"。这个项目给 AI 装上 175 个"手和脚"，让它会搜索、会记忆、会操作浏览器、会付款、会创作内容。
 
 ---
 
@@ -28,6 +28,7 @@
 | 🤖 Agent 进化 | 10 | `████████░░░░░░░░░░░░░░░░░░░░░░` |
 | 🔍 搜索获取 | 8 | `███████░░░░░░░░░░░░░░░░░░░░░░░` |
 | 🌐 浏览器自动化 | 7 | `██████░░░░░░░░░░░░░░░░░░░░░░░░` |
+| 💼 办公与协作 | 9+ | `███████░░░░░░░░░░░░░░░░░░░░░░░` |
 
 > 💡 其余 38 个技能覆盖生活辅助、邮件、社交等长尾场景。
 
@@ -100,7 +101,7 @@ cat tavily-search-pro/SKILL.md
 
 ## 📚 技能目录
 
-> **166+ 个精选技能**，按能力域分类，每个都经过实战验证
+> **175+ 个精选技能**，按能力域分类，每个都经过实战验证
 
 <div align="center">
 
@@ -111,6 +112,7 @@ cat tavily-search-pro/SKILL.md
 ![DevTools](https://img.shields.io/badge/🛠️_开发工具-36个-607D8B.svg?style=for-the-badge)
 ![Finance](https://img.shields.io/badge/💰_金融电商-21个-E91E63.svg?style=for-the-badge)
 ![Design](https://img.shields.io/badge/🎨_设计营销-18个-00BCD4.svg?style=for-the-badge)
+![Office](https://img.shields.io/badge/💼_办公协作-9个-8BC34A.svg?style=for-the-badge)
 ![Domain](https://img.shields.io/badge/🧬_专业领域-17个-795548.svg?style=for-the-badge)
 
 </div>
@@ -299,6 +301,22 @@ cat tavily-search-pro/SKILL.md
 | **alicloud-ai-video-wan-r2v** | 阿里云 Wan R2V 参考视频生成 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
 | **tencent-cloud-cos** | 腾讯云对象存储与 AI 图像处理 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
 
+### 💼 办公与协作
+
+消灭重复劳动，让 AI 替你搞定文档、表格、演示、网盘。
+
+| 技能 | 一句话说明 | 技术栈 | 安全 |
+|------|-----------|--------|------|
+| **feishu-doc** | 飞书文档一键读写，超长内容分块处理 | <img src="https://img.shields.io/badge/API-9C27B0?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **google-sheets** | 智能云端表格管家，OAuth 安全连接 | <img src="https://img.shields.io/badge/API-9C27B0?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **google-docs** | 一键操控 Google 文档，创建编辑格式化 | <img src="https://img.shields.io/badge/API-9C27B0?style=flat-square" /> | <img src="https://img.shields.io/badge/B-FF9800?style=flat-square" /> |
+| **spreadsheet** | 智能表格处理，跨平台数据同步 | <img src="https://img.shields.io/badge/API-9C27B0?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **moltsheet** | 云端智能表格管家，类 Excel 协作共享 | <img src="https://img.shields.io/badge/API-9C27B0?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **prezentit** | AI 一键生成专业演示文稿 PPT | <img src="https://img.shields.io/badge/API-9C27B0?style=flat-square" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
+| **weiyun-skills** | 腾讯微云网盘自动化，12 个管理工具 | <img src="https://img.shields.io/badge/API-9C27B0?style=flat-square" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
+| **zoho-people** | 企业 HR 数据一站式接入 | <img src="https://img.shields.io/badge/API-9C27B0?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **activecampaign** | 智能营销自动化，CRM 数据管控 | <img src="https://img.shields.io/badge/API-9C27B0?style=flat-square" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
+
 ### 🧬 专业领域
 
 深耕垂直场景，提供"专家级"能力。
@@ -367,8 +385,8 @@ graph LR
 
 | 指标 | 数值 | 图标 |
 |:----:|:----:|:----:|
-| 技能总数 | **166+** | <img src="https://img.shields.io/badge/📦_技能-166+-orange?style=for-the-badge" /> |
-| 覆盖领域 | **8 大能力域** | <img src="https://img.shields.io/badge/🎯_领域-8个-blue?style=for-the-badge" /> |
+| 技能总数 | **175+** | <img src="https://img.shields.io/badge/📦_技能-175+-orange?style=for-the-badge" /> |
+| 覆盖领域 | **9 大能力域** | <img src="https://img.shields.io/badge/🎯_领域-9个-blue?style=for-the-badge" /> |
 | 平均启动 | **< 100ms** | <img src="https://img.shields.io/badge/⚡_启动-<100ms-green?style=for-the-badge" /> |
 | 内存占用 | **< 50MB** | <img src="https://img.shields.io/badge/💾_内存-<50MB-purple?style=for-the-badge" /> |
 | 安全评级 | **S+ 平均** | <img src="https://img.shields.io/badge/🔒_安全-S%2B_平均-brightgreen?style=for-the-badge" /> |
@@ -379,7 +397,7 @@ graph LR
 
 ## 🛣️ 路线图
 
-- [x] 166+ 技能模块标准化封装
+- [x] 175+ 技能模块标准化封装
 - [x] 安全分级体系（S+/S/A/B）
 - [x] 统一的 SKILL.md + _meta.json 规范
 - [ ] 技能市场与在线安装
