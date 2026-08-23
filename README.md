@@ -1,11 +1,11 @@
 # 🦞 AI Agent Skills Toolkit
 
-> **一套让 AI Agent 从"能用"到"好用"的核心能力引擎** — 135+ 个即插即用的技能模块，覆盖感知、思考、执行全链路
+> **一套让 AI Agent 从"能用"到"好用"的核心能力引擎** — 149+ 个即插即用的技能模块，覆盖感知、思考、执行全链路
 
 <div align="center">
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
-![Skills](https://img.shields.io/badge/skills-135+-orange.svg?style=for-the-badge)
+![Skills](https://img.shields.io/badge/skills-149+-orange.svg?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3.8+-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/node-16+-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-4.49+-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -25,7 +25,7 @@
 
 | 传统方式 | 本项目 |
 |:--------:|:------:|
-| 每个项目从零搭建 | **135+ 经过验证的能力模块** |
+| 每个项目从零搭建 | **149+ 经过验证的能力模块** |
 | 重复开发搜索/记忆/自动化 | **标准化接口一键集成** |
 | 散落各处难以复用 | **跨项目无缝复用** |
 
@@ -141,7 +141,7 @@ cat tavily-search-pro/SKILL.md
 
 ## 📚 技能目录
 
-> **135+ 个精选技能**，按能力域分类，每个都经过实战验证
+> **149+ 个精选技能**，按能力域分类，每个都经过实战验证
 
 <div align="center">
 
@@ -149,8 +149,8 @@ cat tavily-search-pro/SKILL.md
 ![Agent](https://img.shields.io/badge/🤖_Agent进化-10个-9C27B0.svg?style=for-the-badge)
 ![Browser](https://img.shields.io/badge/🌐_浏览器自动化-7个-4CAF50.svg?style=for-the-badge)
 ![Content](https://img.shields.io/badge/📝_内容处理-11个-FF9800.svg?style=for-the-badge)
-![DevTools](https://img.shields.io/badge/🛠️_开发工具-22个-607D8B.svg?style=for-the-badge)
-![Finance](https://img.shields.io/badge/💰_金融电商-20个-E91E63.svg?style=for-the-badge)
+![DevTools](https://img.shields.io/badge/🛠️_开发工具-36个-607D8B.svg?style=for-the-badge)
+![Finance](https://img.shields.io/badge/💰_金融电商-21个-E91E63.svg?style=for-the-badge)
 ![Design](https://img.shields.io/badge/🎨_设计营销-18个-00BCD4.svg?style=for-the-badge)
 ![Domain](https://img.shields.io/badge/🧬_专业领域-17个-795548.svg?style=for-the-badge)
 
@@ -251,6 +251,25 @@ cat tavily-search-pro/SKILL.md
 | **clawcost** | OpenClaw 智能成本追踪专家 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
 | **voice-agent** | 本地智能语音交互桥接 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
 | **opcode** | AI 智能体零 Token 工作流执行层 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
+| **playwright-mcp** | 微软官方浏览器自动化 MCP 服务 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
+| **test-specialist** | 系统化 JS/TS 测试质量管家 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **senior-frontend** | React 全栈项目脚手架与性能优化专家 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
+| **nl2ms-ui** | AI 驱动的跨平台 UI 自动化测试 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
+| **clean-code** | 务实简洁的 AI 编码规范指南 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **agentic-coding** | 契约驱动，交付可审查的生产代码 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
+| **api-development** | 全栈 API 开发脚手架与测试套件 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **systematic-debugging** | 五阶段根因调试，告别症状修补 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
+| **superpowers-dev-workflow** | 子代理驱动的 TDD 全流程引擎 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **gitlab-cli-skills** | 一站式 GitLab 命令行工作流管家 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **hefestoai-auditor** | 多语言代码安全审计专家 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
+| **strykr-qa-bot** | AI 驱动金融平台自动化测试 | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
+| **ai-web-automation** | 一站式 Web 自动化任务执行平台 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **conventional-commits** | 规范提交信息，自动化版本发布 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **python-pitfalls** | 避开 Python 最隐蔽的 99 个陷阱 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **typescript-pro** | 高级类型系统与全栈安全专家 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **makefile-build** | 跨语言构建自动化专家 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **resilient-connections** | 生产级 API 容错与优雅降级 | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
+| **morning-email-rollup** | 智能晨间邮件与日程简报 | <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
 
 ### 💰 金融与电商
 
@@ -279,6 +298,8 @@ cat tavily-search-pro/SKILL.md
 | **aperture** | L402 闪电付费 API 网关 | <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
 | **airdrop-hunter** | 加密空投智能追踪与管理助手 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
 | **finance-skill** | 隐私优先的本地智能记账助手 | <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" /> | <img src="https://img.shields.io/badge/S-4CAF50?style=flat-square" /> |
+| **financial-search-engine** | 自然语言搜全网财经情报 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | <img src="https://img.shields.io/badge/A-FFC107?style=flat-square" /> |
+| **admapix** | 广告素材与竞品数据一站式获取 | <img src="https://img.shields.io/badge/Docs-757575?style=flat-square" /> | <img src="https://img.shields.io/badge/S%2B-00C853?style=flat-square" /> |
 
 ### 🎨 设计与营销
 
@@ -396,7 +417,7 @@ graph LR
 
 | 指标 | 数值 | 图标 |
 |:----:|:----:|:----:|
-| 技能总数 | **135+** | <img src="https://img.shields.io/badge/📦_技能-135+-orange?style=for-the-badge" /> |
+| 技能总数 | **149+** | <img src="https://img.shields.io/badge/📦_技能-149+-orange?style=for-the-badge" /> |
 | 覆盖领域 | **8 大能力域** | <img src="https://img.shields.io/badge/🎯_领域-8个-blue?style=for-the-badge" /> |
 | 平均启动 | **< 100ms** | <img src="https://img.shields.io/badge/⚡_启动-<100ms-green?style=for-the-badge" /> |
 | 内存占用 | **< 50MB** | <img src="https://img.shields.io/badge/💾_内存-<50MB-purple?style=for-the-badge" /> |
@@ -408,7 +429,7 @@ graph LR
 
 ## 🛣️ 路线图
 
-- [x] 135+ 技能模块标准化封装
+- [x] 149+ 技能模块标准化封装
 - [x] 安全分级体系（S+/S/A/B）
 - [x] 统一的 SKILL.md + _meta.json 规范
 - [ ] 技能市场与在线安装
