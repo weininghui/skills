@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 94 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 98 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -74,6 +74,8 @@ cd skills
 | serper | 专业搜索与批量数据采集利器 | Node.js |
 | web-search-plus | 五合一智能搜索自动路由引擎 | Python |
 | serp-analysis | SEO 竞争情报与 SERP 洞察专家 | 文档 |
+| aegis-audit | AI 技能与 MCP 工具安全审计专家 | Python |
+| ironclaw | AI Agent 实时威胁检测防护 | API |
 
 ### 🤖 Agent 自主进化
 
@@ -88,6 +90,7 @@ cd skills
 | claw-sync | OpenClaw 记忆安全同步专家 | Node.js |
 | learning-engine | 经验驱动的持续进化学习引擎 | 文档 |
 | knowledge-graph | 个人知识图谱智能管理专家 | Python |
+| memory-tiering | AI 上下文智能三级分层管家 | 文档 |
 
 ### 🌐 浏览器与自动化
 
@@ -197,6 +200,7 @@ cd skills
 | remix-api-key-auth | Remix API 密钥安全配置指南 | 文档 |
 | emporia-energy | Emporia 能耗双模式智能监控 | Python |
 | amap-traffic | 实时路况查询与最优路线规划 | Python |
+| globepilot-ai-agent-2 | 去中心化 AI 智能旅行管家 | 文档 |
 | mcd-cn | 麦当劳中国优惠券智能助手 | 文档 |
 
 ## 项目结构
