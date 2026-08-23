@@ -68,64 +68,36 @@ skill-name/
 
 ```mermaid
 graph TB
-    subgraph PERCEPTION["感知层 PERCEPTION"]
-        direction LR
-        A1["多源搜索<br/>tavily-search-pro<br/>multi-search-engine"]
-        A2["浏览器控制<br/>agent-browser<br/>playwright-mcp"]
-        A3["内容提取<br/>summarize<br/>paddleocr-doc-parsing"]
-        A4["数据分析<br/>seo-content-engine<br/>competitor-analysis"]
-        A5["实时监控<br/>aviation-weather<br/>amap-traffic"]
+    subgraph Perception["感知层"]
+        A1["搜索"] --> A2["浏览器"] --> A3["内容"]
     end
 
-    subgraph COGNITION["思考层 COGNITION"]
-        direction LR
-        B1["自我进化<br/>self-improvement<br/>capability-evolver"]
-        B2["知识图谱<br/>knowledge-graph<br/>ontology"]
-        B3["决策推理<br/>fact-checker<br/>humanize-ai-text"]
-        B4["记忆管理<br/>memory-tiering<br/>zettelkasten"]
-        B5["创意生成<br/>content-ideas<br/>creative-writing"]
+    subgraph Cognition["思考层"]
+        B1["记忆"] --> B2["推理"] --> B3["进化"]
     end
 
-    subgraph ACTION["执行层 ACTION"]
-        direction LR
-        C1["自动化运营<br/>auto-reply<br/>instagram-poster"]
-        C2["支付集成<br/>paypal<br/>solana-payments"]
-        C3["通信管理<br/>wacli<br/>custom-smtp-sender"]
-        C4["文件处理<br/>xlsx-pro<br/>tencent-cloud-cos"]
-        C5["内容创作<br/>ppt-master<br/>video-generation"]
+    subgraph Action["执行层"]
+        C1["自动化"] --> C2["支付"] --> C3["创作"]
     end
 
-    subgraph SECURITY["安全层 SECURITY"]
-        direction LR
-        D1["安全审计<br/>aegis-audit<br/>tech-security-audit"]
-        D2["威胁检测<br/>skill-vetting<br/>otp-challenger"]
-        D3["代码沙箱<br/>docker-sandbox<br/>browser-secure"]
-        D4["身份认证<br/>base-8004<br/>remix-api-key-auth"]
+    subgraph Security["安全层"]
+        D1["审计"] --> D2["检测"] --> D3["沙箱"]
     end
 
     A1 --> B1
-    A1 --> B2
-    A2 --> B3
-    A2 --> C1
-    A3 --> B4
-    A3 --> B5
-    A4 --> B3
-    A5 --> C1
+    A2 --> B2
+    A3 --> B3
     B1 --> C1
-    B2 --> C4
-    B3 --> C2
-    B4 --> C5
-    B5 --> C5
+    B2 --> C2
+    B3 --> C3
     C1 --> D1
     C2 --> D2
     C3 --> D3
-    C4 --> D4
-    C5 --> D1
 
-    style PERCEPTION fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
-    style COGNITION fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
-    style ACTION fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
-    style SECURITY fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
+    style Perception fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
+    style Cognition fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
+    style Action fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+    style Security fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
 ```
 
 ---
