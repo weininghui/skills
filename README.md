@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 98 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 103 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -101,6 +101,8 @@ cd skills
 | cal-com-automation | Cal.com 智能日程自动化助手 | 文档 |
 | clawdbot-documentation-expert | Clawdbot 文档实时查询专家 | Shell |
 | browser-secure | Vault 级安全浏览器自动化方案 | TypeScript |
+| cloudphone | 云端 Android 自动化测试助手 | Python |
+| aster | 开源隐私优先的安卓 AI 副驾驶 | Python |
 
 ### 📝 内容处理
 
@@ -141,6 +143,8 @@ cd skills
 | otp-challenger | 敏感操作前的双因素认证 | Shell |
 | readme-generator | 自动化项目文档生成专家 | 文档 |
 | stdio-skill | 本地文件安全收发工作站 | Node.js |
+| custom-smtp-sender | 安全可靠的自动化邮件发送助手 | Python |
+| email-sequence-builder | 高转化邮件营销序列生成器 | 文档 |
 
 ### 💰 金融与电商
 
@@ -183,6 +187,7 @@ cd skills
 | content-ideas | 灵感源源不断的社媒管家 | 文档 |
 | instagram-poster | 本地 Instagram 自动化运营专家 | 文档 |
 | auto-reply | 7×24 小时社交智能互动管家 | 文档 |
+| competitor-analysis-report | 专业级竞品分析与战略洞察 | 文档 |
 
 ### 🧬 专业领域
 
