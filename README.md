@@ -62,7 +62,7 @@ cd skills
 
 ## 技能目录
 
-> 📚 共包含 121 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
+> 📚 共包含 126 个精选技能模块，覆盖搜索、自动化、安全、数据分析、金融、设计、编程教育等核心领域
 
 ### 🔍 搜索与信息获取
 
@@ -118,6 +118,7 @@ cd skills
 | frinkiac | 经典美剧台词截图与表情包生成 | 文档 |
 | fact-checker | 自动化事实核查与信源验证专家 | 文档 |
 | yt-video-downloader | 多格式视频下载与音频提取利器 | 文档 |
+| pengyouquan-pangyu | 懂你风格的朋友圈文案助手 | 文档 |
 
 ### 🛠️ 开发工具
 
@@ -200,6 +201,9 @@ cd skills
 | codeberg | 欧洲开源代码托管助手 | 文档 |
 | tencentcloud-cos-skill | 企业级云存储与 AI 图像处理中心 | Python |
 | marketing-drafter | 全渠道 AI 营销文案生成器 | 文档 |
+| mailmolt | 为 AI 代理打造独立邮件身份 | TypeScript |
+| papi | 企业级 WhatsApp 自动化中枢 | 文档 |
+| life-control | 多维度个人生活自动化管理 | 文档 |
 
 ### 🧬 专业领域
 
