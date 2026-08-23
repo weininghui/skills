@@ -14,6 +14,30 @@
 
 **一句话介绍**：AI 就像一台刚出厂的电脑——模型很聪明，但"什么都不会做"。这个项目给 AI 装上 175 个"手和脚"，让它会搜索、会记忆、会操作浏览器、会付款、会创作内容。
 
+### 🛞 给 AI 装上轮子
+
+```mermaid
+graph TB
+    AI["🤖 AI 大脑<br/>大模型 + 175 个技能"]
+    W1(("🔍 感知轮<br/>搜索·浏览"))
+    W2(("🧠 思考轮<br/>记忆·推理"))
+    W3(("⚡ 行动轮<br/>自动化·支付"))
+    W4(("🛡️ 安全轮<br/>审计·防护"))
+
+    AI --- W1
+    AI --- W2
+    AI --- W3
+    AI --- W4
+
+    style AI fill:#FFFDE7,stroke:#F9A825,stroke-width:3px
+    style W1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+    style W2 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+    style W3 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+    style W4 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+```
+
+> **每个技能就是一个轮子**：装上感知轮，AI 会搜索浏览；装上思考轮，AI 会记忆推理；装上行动轮，AI 会执行支付；四个轮子装齐，AI 就能真正"跑"起来。175 个技能，任你拼装。
+
 ---
 
 ## 🎯 这是什么？
